@@ -8,5 +8,16 @@ namespace Model
 {
     public class Owner : Person
     {
+        private static Owner instance;
+
+        public static Owner getInstance()
+        {
+            if (instance == null)
+            {
+                instance = new Owner();
+                
+            }
+            return instance;
+        }
     }
 }

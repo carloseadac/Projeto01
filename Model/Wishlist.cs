@@ -8,5 +8,14 @@ namespace Model
 {
     public class Wishlist
     {
+        private Client client;
+
+        private List<Product> products;
+
+        public void addProductToWishList(Product product)
+        {
+            products.Add(product);
+        }
+        
     }
 }

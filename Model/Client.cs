@@ -8,5 +8,15 @@ namespace Model
 {
     public class Client : Person
     {
+        private static Client instance;
+
+        public static Client getInstance()
+        {
+            if(instance == null)
+            {
+                instance = new Client();
+            }
+            return instance;
+        }
     }
 }
