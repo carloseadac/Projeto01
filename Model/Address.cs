@@ -44,7 +44,7 @@ namespace Model
         {
             return country;
         }
-        public void setCpuntry(string country)
+        public void setCountry(string country)
         {
             this.country = country;
         }
@@ -54,7 +54,7 @@ namespace Model
         }
         public void setPosteCode(string poste_code)
         {
-            this.poste_code = poste_code;//
+            this.poste_code = poste_code;
         }
         
     }
