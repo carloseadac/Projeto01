@@ -15,6 +15,12 @@ namespace Model
         private String number_nf = "";
         private Client client;
 
+        //construtor
+        public Purchase(Client client)
+        {
+            this.client = client;
+        }
+
         //getters e setters
         public DateTime getDatePurchase()
         {

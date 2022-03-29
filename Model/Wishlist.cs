@@ -12,6 +12,12 @@ namespace Model
 
         private List<Product> products;
 
+        //construtor
+        public Wishlist(Client client)
+        {
+            this.client = client;
+        }
+
         public void addProductToWishList(Product product)
         {
             products.Add(product);

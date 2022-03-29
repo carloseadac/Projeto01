@@ -9,12 +9,14 @@ namespace Model
     public class Owner : Person
     {
         private static Owner instance;
+        //construtor
+        private Owner(Address address) : base(address){this.address = address;}
 
-        public static Owner getInstance()
+        public static Owner getInstance(Address address)
         {
             if (instance == null)
             {
-                instance = new Owner();
+                instance = new Owner(address);
                 
             }
             return instance;

@@ -13,6 +13,12 @@ namespace Model
         private Double unit_price;
         private String bar_code = "";
 
+        //construtor
+        public Product()
+        {
+
+        }
+
         //Getters e Setters
         public string getName()
         {

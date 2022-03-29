@@ -15,6 +15,12 @@ namespace Model
         private String country = "";
         private String poste_code = "";
 
+        //construtor
+        public Address()
+        {
+
+        }
+
         //getters e setters
         public string getStreet()
         {

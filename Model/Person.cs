@@ -17,6 +17,9 @@ namespace Model
         protected String login = "";
         protected Address address;
 
+        //construtor
+        public Person(Address address) { this.address = address; }
+
         //getters e setters
         public string getName()
         {

@@ -10,11 +10,15 @@ namespace Model
     {
         private static Client instance;
 
-        public static Client getInstance()
+        //construtor
+        private Client(Address address) : base(address) { this.address = address; }
+
+ 
+        public static Client getInstance(Address address)
         {
             if(instance == null)
             {
-                instance = new Client();
+                instance = new Client(address);
             }
             return instance;
         }

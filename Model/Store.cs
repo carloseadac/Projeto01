@@ -14,6 +14,12 @@ namespace Model
         private Owner owner;
         private List<Purchase> purchases;
 
+        //construtor
+        public Store(Owner owner)
+        {
+            this.owner = owner;
+        }
+
         //getters e setters
         public string getName()
         {
