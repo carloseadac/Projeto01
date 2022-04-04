@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Interfaces;
 
 namespace Model
 {
-    public class Address
+    public class Address : IValidateDataObject<Address>
     {
         //declarando variáveis
         private String street = "";
@@ -16,8 +17,13 @@ namespace Model
         private String poste_code = "";
 
         //construtor
-        public Address()
+        public Address(string street, string city, string state, string country, string poste_code)
         {
+            this.street = street;  
+            this.city = city;
+            this.state = state;
+            this.country = country;
+            this.poste_code = poste_code;
 
         }
 
@@ -54,14 +60,38 @@ namespace Model
         {
             this.country = country;
         }
-        public string getPosteCode()
+        public string getPostalCode()
         {
             return poste_code;
         }
-        public void setPosteCode(string poste_code)
+        public void setPostalCode(string poste_code)
         {
             this.poste_code = poste_code;
         }
-        
+        //interfaces
+        public bool validateObject(Address obj)
+        {
+            if(obj.street == null)
+            {
+                return false;
+            }
+            else if(obj.city == null)
+            {
+                return false;
+            }
+            else if (obj.state == null)
+            {
+                return false;
+            }
+            else if (obj.poste_code == null)
+            {
+                return false;
+            }
+            else if (obj.country == null)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

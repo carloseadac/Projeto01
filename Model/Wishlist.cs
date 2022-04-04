@@ -6,18 +6,26 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class Wishlist
+    public class WishList
     {
         private Client client;
 
-        private List<Product> products;
+        private List<Product> products = new List<Product>();
 
         //construtor
-        public Wishlist(Client client)
+        public WishList(Client client)
         {
             this.client = client;
         }
 
+        public Client getClient()
+        {
+            return client;
+        }
+        public List<Product> getProducts()
+        {
+            return products;
+        }
         public void addProductToWishList(Product product)
         {
             products.Add(product);

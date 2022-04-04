@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Enums;
 
 namespace Model
 {
@@ -10,34 +11,29 @@ namespace Model
     {
         //declarando variaveis
         private DateTime date_purchase;
-        private String payment = "";
         private String number_confirmation = "";
         private String number_nf = "";
         private Client client;
+        private Store store;
 
-        //construtor
-        public Purchase(Client client)
-        {
-            this.client = client;
-        }
+        private int payment;
+        private int purchase_status;
+        private double purchase_values = 0;
+
+        private List<Product> products;
+
+
 
         //getters e setters
-        public DateTime getDatePurchase()
+        public DateTime getDataPurchase()
         {
             return date_purchase;
         }
-        public void setDatePurchase(DateTime date_purchase)
+        public void setDataPurchase(DateTime date_purchase)
         {
             this.date_purchase = date_purchase;
         }
-        public string getPayment()
-        {
-            return payment;
-        }
-        public void setPayment(string payment)
-        {
-            this.payment = payment;
-        }
+       
         public string getNumberConfirmation()
         {
             return number_confirmation;
@@ -46,11 +42,11 @@ namespace Model
         {
             this.number_confirmation = number_confirmation;
         }
-        public string getNumberNF()
+        public string getNumberNf()
         {
             return number_nf;
         }
-        public void setNumberNF(string number_nf)
+        public void setNumberNf(string number_nf)
         {
             this.number_nf = number_nf;
         }
@@ -62,5 +58,33 @@ namespace Model
         {
             this.client = client;
         }
+        public Store getStore()
+        {
+            return store;
+        }
+        public void setStore(Store store)
+        {
+            this.store = store;
+        }
+
+        public List<Product> getProducts()
+        {
+            return this.products;
+        }
+        public void setProducts(List<Product> products)
+        {
+            this.products = products;
+        }
+        
+
+        public int getPaymentType() => payment;
+        public void setPaymentType(PaymentEnum payment) { this.payment = (int)payment; }
+
+        public int getPurchaseStatus() => purchase_status;
+        public void setPurchaseStatus(PurchaseStatusEnum purchase_status) { this.purchase_status = (int)purchase_status; }
+
+        public double getPurchaseValues() => purchase_values;
+        public void setPurchaseValues(double purchase_values) {this.purchase_values = purchase_values; }
+
     }
 }

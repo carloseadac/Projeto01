@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Interfaces;
 
 namespace Model
 {
-    public class Product
+    public class Product : IValidateDataObject<Product>
     {
         //Declaração das variáveis
         private String name = "";
-        private Double unit_price;
+        private Double unit_price= 0.0;
         private String bar_code = "";
 
         //construtor
@@ -28,7 +29,7 @@ namespace Model
         {
             this.name = name;
         }
-        public double getUnitPrice()
+        public double getUnitprice()
         {
             return unit_price;
         }
@@ -45,5 +46,21 @@ namespace Model
             this.bar_code = bar_code;
         }
 
+        public bool validateObject(Product obj)
+        {
+            if(obj.name == null)
+            {
+                return false;
+            }
+            else if(obj.unit_price == 0.0)
+            {
+                return false;
+            }
+            else if(obj.bar_code == null)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }
