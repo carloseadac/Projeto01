@@ -7,7 +7,7 @@ using Interfaces;
 
 namespace Model
 {
-    public class Person : IValidateDataObject<Person>
+    public class Person
     {
         //declarando variáveis
         protected String name = "";
@@ -88,37 +88,6 @@ namespace Model
             this.address = address;
         }
 
-        public bool validateObject(Person obj)
-        {
-            if(obj.date_of_birth == null)
-            {
-                return false;
-            }
-            else if(obj.name == null)
-            {
-                return false;
-            }
-            else if(obj.document == null)
-            {
-                return false;
-            }
-            else if(obj.email == null)
-            {
-                return false;
-            }
-            else if(obj.phone == null)
-            {
-                return false;
-            }
-            else if(obj.login == null)
-            {
-                return false;
-            }
-            else if(obj.address == null)
-            {
-                return false; 
-            }
-            return true;
-        }
+        
     }
 }

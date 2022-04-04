@@ -71,26 +71,11 @@ namespace Model
         //interfaces
         public bool validateObject(Address obj)
         {
-            if(obj.street == null)
-            {
-                return false;
-            }
-            else if(obj.city == null)
-            {
-                return false;
-            }
-            else if (obj.state == null)
-            {
-                return false;
-            }
-            else if (obj.poste_code == null)
-            {
-                return false;
-            }
-            else if (obj.country == null)
-            {
-                return false;
-            }
+            if(obj.street == null) return false;            
+            if(obj.city == null) return false;           
+            if(obj.state == null) return false;                      
+            if(obj.poste_code == null) return false;           
+            if(obj.country == null) return false;           
             return true;
         }
     }

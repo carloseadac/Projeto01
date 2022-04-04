@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Enums;
+using Interfaces;
 
 namespace Model
 {
-    public class Purchase
+    public class Purchase : IValidateDataObject<Purchase>
     {
         //declarando variaveis
         private DateTime date_purchase;
@@ -85,6 +86,20 @@ namespace Model
 
         public double getPurchaseValues() => purchase_values;
         public void setPurchaseValues(double purchase_values) {this.purchase_values = purchase_values; }
+
+        public bool validateObject(Purchase obj)
+        {
+            if(obj.client == null) return false;
+            if(obj.store == null) return false;
+            if(obj.number_confirmation == null) return false;
+            if(obj.number_nf == null) return false;
+            if(obj.payment == null) return false;
+            if(obj.products == null) return false;
+            if(obj.purchase_status == null) return false
+            if(obj.purchase_values == null) return false;
+            if(obj.date_purchase > DateTime.Now || DateTime.Compare(obj.date_of_birth,new DateTime(1900,1,1)) < 0) return false;
+            return true;
+        }
 
     }
 }
