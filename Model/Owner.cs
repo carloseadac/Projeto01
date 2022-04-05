@@ -10,6 +10,7 @@ namespace Model
     public class Owner : Person, IValidateDataObject<Owner>
     {
         private static Owner instance;
+        Guid uuid = Guid.NewGuid();
         //construtor
         private Owner(Address address) : base(address){this.address = address;}
 
