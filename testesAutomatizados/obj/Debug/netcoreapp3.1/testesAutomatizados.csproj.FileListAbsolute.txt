@@ -90,8 +90,6 @@
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/Models.dll
-/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/Models.pdb
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/netcoreapp3.1/testesAutomatizados.csproj.CopyComplete
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/netcoreapp3.1/testesAutomatizados.dll
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/netcoreapp3.1/testesAutomatizados.pdb
@@ -100,3 +98,5 @@
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/Interfaces.dll
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/Enums.pdb
 /home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/Interfaces.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/Model.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/netcoreapp3.1/Model.pdb

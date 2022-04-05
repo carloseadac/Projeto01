@@ -49,18 +49,9 @@ namespace Model
 
         public bool validateObject(Stocks obj)
         {
-            if(obj.quantity == 0)
-            {
-                return false;
-            }
-            else if(obj.product == null)
-            {
-                return false;
-            }
-            else if(obj.store == null)
-            {
-                return false;
-            }
+            if(obj.quantity == 0) return false;
+            if(obj.product == null) return false; 
+            if(obj.store == null) return false;
             return true;
         }
     }

@@ -48,18 +48,9 @@ namespace Model
 
         public bool validateObject(Product obj)
         {
-            if(obj.name == null)
-            {
-                return false;
-            }
-            else if(obj.unit_price == 0.0)
-            {
-                return false;
-            }
-            else if(obj.bar_code == null)
-            {
-                return false;
-            }
+            if(obj.name == null) return false;          
+            if(obj.unit_price == 0.0) return false;            
+            if(obj.bar_code == null) return false;
             return true;
         }
     }

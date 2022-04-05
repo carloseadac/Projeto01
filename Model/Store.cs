@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Interfaces;
 
 namespace Model
 {
-    public class Store
+    public class Store : IValidateDataObject<Store>
     {
         //declarando variáveis
         private String name = "";
@@ -52,6 +53,15 @@ namespace Model
         public void addNewPurchase(Purchase purchase)
         {
             purchases.Add(purchase);
+        }
+
+        public bool validateObject(Store obj)
+        {
+            if(obj.cnpj == null) return false;
+            if(obj.owner == null) return false;
+            if(obj.purchases == null) return false;
+            if(obj.name == null) return false;
+            return true;
         }
 
 
