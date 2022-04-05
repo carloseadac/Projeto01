@@ -15,12 +15,7 @@ namespace Model
         private Store store;
 
         //construtor
-        public Stocks(Product product, Store store)
-        {
-            this.product = product;
-            this.store = store;
-        }
-
+        
         //getters e setters
         public int getQuantity()
         {

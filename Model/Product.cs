@@ -10,9 +10,9 @@ namespace Model
     public class Product : IValidateDataObject<Product>
     {
         //Declaração das variáveis
-        private String name = "";
-        private Double unit_price= 0.0;
-        private String bar_code = "";
+        private String name;
+        private Double unit_price;
+        private String bar_code;
 
         //construtor
         public Product()
