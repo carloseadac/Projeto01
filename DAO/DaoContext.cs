@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DAO;
 
-public class Context : DbContext
+public class DaoContext : DbContext
 {
     public DbSet<Address> address { get; set; }
     public DbSet<Client> clients { get; set; }
@@ -42,7 +42,7 @@ public class Context : DbContext
             entity.Property(a=> a.email).IsRequired();
             entity.Property(a=> a.phone).IsRequired();
             entity.Property(a=> a.login).IsRequired();
-            entity.Property(a=> a.password).IsRequired();
+            entity.Property(a=> a.passwd).IsRequired();
 
 
             entity.HasOne(a=> a.address);
@@ -56,7 +56,7 @@ public class Context : DbContext
             entity.Property(a=> a.email).IsRequired();
             entity.Property(a=> a.phone).IsRequired();
             entity.Property(a=> a.login).IsRequired();
-            entity.Property(a=> a.password).IsRequired();
+            entity.Property(a=> a.passwd).IsRequired();
             entity.Property(a=> a.date_of_birth).IsRequired();
 
 
@@ -80,6 +80,7 @@ public class Context : DbContext
         {
             entity.HasKey(a => a.id);
             entity.Property(a=>a.quantity).IsRequired();
+            entity.Property(a=>a.unit_price).IsRequired();
             entity.HasOne(a=> a.store);
             entity.HasOne(a=> a.product);
         });
@@ -101,7 +102,7 @@ public class Context : DbContext
             entity.HasKey(a => a.id);
             entity.Property(a=>a.name).IsRequired();
             entity.Property(a=>a.bar_code).IsRequired();
-            entity.Property(a=>a.unit_price).IsRequired();
+            
         });
       
     }

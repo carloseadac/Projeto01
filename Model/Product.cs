@@ -11,7 +11,7 @@ namespace Model
     {
         //Declaração das variáveis
         private String name;
-        private Double unit_price;
+        //private Double unit_price;
         private String bar_code;
 
         //construtor
