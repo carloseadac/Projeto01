@@ -3,7 +3,11 @@ namespace DTO
 {
     public class AddressDTO
     {
-        public String name;
-        public String CNPJ;
+        public string street;
+        public string state;
+        public string city;
+        public string country;
+        public string postal_code;
+
     }
 }

@@ -17,7 +17,7 @@ namespace Model
         private Client client;
         private Store store;
 
-        private int payment;
+        private int payment_type;
         private int purchase_status;
         private double purchase_values = 0;
 
@@ -78,8 +78,8 @@ namespace Model
         }
         
 
-        public int getPaymentType() => payment;
-        public void setPaymentType(PaymentEnum payment) { this.payment = (int)payment; }
+        public int getPaymentType() => payment_type;
+        public void setPaymentType(PaymentEnum payment_type) { this.payment_type = (int)payment_type; }
 
         public int getPurchaseStatus() => purchase_status;
         public void setPurchaseStatus(PurchaseStatusEnum purchase_status) { this.purchase_status = (int)purchase_status; }
@@ -93,12 +93,16 @@ namespace Model
             if(obj.store == null) return false;
             if(obj.number_confirmation == null) return false;
             if(obj.number_nf == null) return false;
-            if(obj.payment == 0) return false;
+            if(obj.payment_type == 0) return false;
             if(obj.products == null) return false;
             if(obj.purchase_status == 0) return false;
             if(obj.purchase_values == 0) return false;
             if(obj.date_purchase > DateTime.Now || DateTime.Compare(obj.date_purchase,new DateTime(1900,1,1)) < 0) return false;
             return true;
+        }
+         Purchase void convertDTOToModel()
+        {
+            
         }
 
     }

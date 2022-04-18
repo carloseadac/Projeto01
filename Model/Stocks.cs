@@ -13,10 +13,19 @@ namespace Model
         private int quantity;
         private Product product;
         private Store store;
+        private double unit_price;
 
         //construtor
         
         //getters e setters
+        public double getUnitPrice()
+        {
+            return unit_price;
+        }
+        public void setUnitPrice(double unit_price)
+        {
+            this.unit_price = unit_price;
+        }
         public int getQuantity()
         {
             return quantity;

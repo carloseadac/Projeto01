@@ -36,5 +36,9 @@ namespace Model
             if(obj.login == null) return false;      
             return true;
         }
+         public void convertDTOToModel(Client)
+        {
+            
+        }
     }
 }
