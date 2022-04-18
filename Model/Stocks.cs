@@ -7,7 +7,7 @@ using Interfaces;
 
 namespace Model
 {
-    public class Stocks : IValidateDataObject<Stocks>
+    public class Stocks : IValidateDataObject
     {
         //declarando variáveis
         private int quantity;
@@ -51,11 +51,11 @@ namespace Model
             this.store = store;
         }
 
-        public bool validateObject(Stocks obj)
+        public bool validateObject()//Stocks obj)
         {
-            if(obj.quantity == 0) return false;
-            if(obj.product == null) return false; 
-            if(obj.store == null) return false;
+            //if(obj.quantity == 0) return false;
+            //if(obj.product == null) return false; 
+            //if(obj.store == null) return false;
             return true;
         }
     }

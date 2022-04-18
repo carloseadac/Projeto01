@@ -7,7 +7,7 @@ using Interfaces;
 
 namespace Model
 {
-    public class WishList : IValidateDataObject<WishList>
+    public class WishList : IValidateDataObject
     {
         private Client client;
 
@@ -36,10 +36,10 @@ namespace Model
         }
 
         //interface
-        public bool validateObject(WishList obj)
+        public bool validateObject()//WishList obj)
         {
-            if(obj.products == null) return false;
-            if(obj.client == null) return false; 
+            //if(obj.products == null) return false;
+            //if(obj.client == null) return false; 
             return true;
         }
     }

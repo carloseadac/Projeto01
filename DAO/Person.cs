@@ -7,7 +7,8 @@ public class Person
     public DateTime date_of_birth;
     public string phone;
     public string login;
-    public string password;
+    public string passwd;
+    public string document;
 
     public Address address;
 }

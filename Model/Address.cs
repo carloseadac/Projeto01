@@ -1,31 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Interfaces;
+using DAO;
+using DTO;
+using System.Collections.Generic;
+
 
 namespace Model
 {
-    public class Address : IValidateDataObject<Address>
+    public class Address : IValidateDataObject, IDataController<AddressDTO, Address>
     {
         //declarando variáveis
-        private String street = "";
-        private String city = "";
-        private String state = "";
-        private String country = "";
-        private String poste_code = "";
+        private String street;
+        private String city;
+        private String state;
+        private String country;
+        private String postal_code;
+        public List<AddressDTO> addressDTO = new List<AddressDTO>();
+
 
         //construtor
-        public Address(string street, string city, string state, string country, string poste_code)
+        public Address(string street, string city, string state, string country, string postal_code)
         {
             this.street = street;  
             this.city = city;
             this.state = state;
             this.country = country;
-            this.poste_code = poste_code;
+            this.postal_code = postal_code;
 
         }
+        public static Address convertDTOToModel(AddressDTO obj)
+        {
+            return new Address(obj.street, obj.city, obj.state, obj.country, obj.postal_code);
+        }
+
 
         //getters e setters
         public string getStreet()
@@ -62,23 +69,23 @@ namespace Model
         }
         public string getPostalCode()
         {
-            return poste_code;
+            return postal_code;
         }
-        public void setPostalCode(string poste_code)
+        public void setPostalCode(string postal_code)
         {
-            this.poste_code = poste_code;
+            this.postal_code = postal_code;
         }
         //interfaces
-        public bool validateObject(Address obj)
+        public bool validateObject()
         {
-            if(obj.street == null) return false;            
-            if(obj.city == null) return false;           
-            if(obj.state == null) return false;                      
-            if(obj.poste_code == null) return false;           
-            if(obj.country == null) return false;           
+            if(this.street == null) return false;            
+            if(this.city == null) return false;           
+            if(this.state == null) return false;                      
+            if(this.postal_code == null) return false;           
+            if(this.country == null) return false;           
             return true;
         }
-
+        
         public void delete(AddressDTO obj)
         {
 
@@ -88,7 +95,7 @@ namespace Model
         {
             var id = 0;
 
-            using(var context = new DAOContext())
+            using(var context = new DaoContext())
             {
                 var address = new DAO.Address{
                     street = this.street,
@@ -141,6 +148,6 @@ namespace Model
 
             return addressDTO;
         }
-
+        
     }
 }

@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Model/1.0.0": {
         "dependencies": {
+          "DAO": "1.0.0",
+          "DTO": "1.0.0",
           "Enums": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
@@ -631,6 +633,20 @@
           }
         }
       },
+      "DAO/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "runtime": {
+          "DAO.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "runtime": {
+          "DTO.dll": {}
+        }
+      },
       "Enums/1.0.0": {
         "runtime": {
           "Enums.dll": {}
@@ -1012,6 +1028,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "DAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Enums/1.0.0": {
       "type": "project",

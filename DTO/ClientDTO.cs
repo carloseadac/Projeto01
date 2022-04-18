@@ -11,6 +11,6 @@ namespace DTO
         public String login;
         public String passwd;
 
-        public AddressDTO AddressDTO;
+        public AddressDTO address;
     }
 }

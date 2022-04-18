@@ -6,7 +6,7 @@ namespace DAO;
 
 public class DaoContext : DbContext
 {
-    public DbSet<Address> address { get; set; }
+    public DbSet<Address> Address { get; set; }
     public DbSet<Client> clients { get; set; }
     public DbSet<Owner> owners { get; set; }
     public DbSet<Product> products { get; set; }

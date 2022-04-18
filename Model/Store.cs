@@ -7,7 +7,7 @@ using Interfaces;
 
 namespace Model
 {
-    public class Store : IValidateDataObject<Store>
+    public class Store : IValidateDataObject
     {
         //declarando variáveis
         private String name = "";
@@ -55,12 +55,12 @@ namespace Model
             purchases.Add(purchase);
         }
 
-        public bool validateObject(Store obj)
+        public bool validateObject()//Store obj)
         {
-            if(obj.cnpj == null) return false;
-            if(obj.owner == null) return false;
-            if(obj.purchases == null) return false;
-            if(obj.name == null) return false;
+            //if(obj.cnpj == null) return false;
+            //if(obj.owner == null) return false;
+            //if(obj.purchases == null) return false;
+            //if(obj.name == null) return false;
             return true;
         }
 

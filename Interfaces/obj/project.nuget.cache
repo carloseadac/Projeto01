@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ra8Ki4ZjfxFuTL1EgOPOxjuZNB87wfVeQohjQ1aR1Rz7yGNSfPPQ96xmu7RTiYOehrR9UhDZ7Zq3KONc6zHFow==",
+  "dgSpecHash": "F0dG4pUtt0ZaHnG18Lwm5DNkIxdnzwCccg0Miwv15URZnj5dXGT6gfEtc6L/NBsGMDupzR46k1chcSngJ00v5Q==",
   "success": true,
-  "projectFilePath": "/home/gustavoaulas/Projetos/Api/Interfaces/Interfaces.csproj",
-  "expectedPackageFiles": [
-    "/home/gustavoaulas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/home/gustavoaulas/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\Interfaces\\Interfaces.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

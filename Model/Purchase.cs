@@ -8,7 +8,7 @@ using Interfaces;
 
 namespace Model
 {
-    public class Purchase : IValidateDataObject<Purchase>
+    public class Purchase : IValidateDataObject
     {
         //declarando variaveis
         private DateTime date_purchase;
@@ -87,23 +87,19 @@ namespace Model
         public double getPurchaseValues() => purchase_values;
         public void setPurchaseValues(double purchase_values) {this.purchase_values = purchase_values; }
 
-        public bool validateObject(Purchase obj)
+        public bool validateObject()//Purchase obj)
         {
-            if(obj.client == null) return false;
-            if(obj.store == null) return false;
-            if(obj.number_confirmation == null) return false;
-            if(obj.number_nf == null) return false;
-            if(obj.payment_type == 0) return false;
-            if(obj.products == null) return false;
-            if(obj.purchase_status == 0) return false;
-            if(obj.purchase_values == 0) return false;
-            if(obj.date_purchase > DateTime.Now || DateTime.Compare(obj.date_purchase,new DateTime(1900,1,1)) < 0) return false;
+            //if(obj.client == null) return false;
+            //if(obj.store == null) return false;
+            //if(obj.number_confirmation == null) return false;
+            //if(obj.number_nf == null) return false;
+            //if(obj.payment_type == 0) return false;
+            //if(obj.products == null) return false;
+            //if(obj.purchase_status == 0) return false;
+            //if(obj.purchase_values == 0) return false;
+            //if(obj.date_purchase > DateTime.Now || DateTime.Compare(obj.date_purchase,new DateTime(1900,1,1)) < 0) return false;
             return true;
         }
-         Purchase void convertDTOToModel()
-        {
-            
-        }
-
+         
     }
 }
