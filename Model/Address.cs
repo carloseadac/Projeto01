@@ -78,5 +78,69 @@ namespace Model
             if(obj.country == null) return false;           
             return true;
         }
+
+        public void delete(AddressDTO obj)
+        {
+
+        }
+
+        public int save()
+        {
+            var id = 0;
+
+            using(var context = new DAOContext())
+            {
+                var address = new DAO.Address{
+                    street = this.street,
+                    city = this.city,
+                    state = this.state,
+                    country = this.country,
+                    postal_code = this.postal_code
+                };
+
+                context.Address.Add(address);
+
+                context.SaveChanges();
+
+                id = address.id;
+
+            }
+             return id;
+        }
+
+        public void update(AddressDTO obj)
+        {
+
+        }
+
+        public AddressDTO findById(int id)
+        {
+
+            return new AddressDTO();
+        }
+
+        public List<AddressDTO> getAll()
+        {        
+            return this.addressDTO;      
+        }
+
+   
+        public AddressDTO convertModelToDTO()
+        {
+            var addressDTO = new AddressDTO();
+
+            addressDTO.street = this.street;
+
+            addressDTO.state = this.state;
+
+            addressDTO.city = this.city;
+
+            addressDTO.country = this.country;
+
+            addressDTO.postal_code = this.postal_code;
+
+            return addressDTO;
+        }
+
     }
 }

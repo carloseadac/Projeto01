@@ -29,14 +29,14 @@ namespace Model
         {
             this.name = name;
         }
-        public double getUnitprice()
-        {
-            return unit_price;
-        }
-        public void setUnitPrice(double unit_price)
-        {
-            this.unit_price = unit_price;
-        }
+        // public double getUnitprice()
+        // {
+        //     return unit_price;
+        // }
+        // public void setUnitPrice(double unit_price)
+        // {
+        //     this.unit_price = unit_price;
+        // }
         public string getBarCode()
         {
             return bar_code;

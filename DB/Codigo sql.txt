@@ -1,5 +1,4 @@
-/* CREATE TABLES ---------------------------------------------------------------------------------------------------------- */
-
+/* CREATE TABLES 
 CREATE TABLE tbl_Address(
 	id_address INT IDENTITY(1,1) PRIMARY KEY,
 	street VARCHAR(100),
@@ -79,7 +78,7 @@ CREATE TABLE tbl_Purchase(
 
 
 
-/* INSERTS ---------------------------------------------------------------------------------------------------------- */
+/* INSERTS */
 
 
 INSERT INTO tbl_Address (street,city,state,country,posteCode)
@@ -235,7 +234,7 @@ VALUES
   ('credito','Sep 6, 2021','478681','5447362630874',4,17,10),
   ('debito','Jul 26, 2022','203244','1355265487068',3,14,10);
 
-/* SELECTS ---------------------------------------------------------------------------------------------------------- */
+/* SELECTS */
 
 /* - Selecionar as compras de uma loja. */
 select * from tbl_Purchase where fk_store = 4
@@ -247,16 +246,22 @@ select * from tbl_Purchase where fk_product = 12
 select * from tbl_Purchase where fk_client = 10
 
 /* - Selecionar as compras de um determinado cliente pelo CPF. */
-select * from tbl_Purchase inner join tbl_client on tbl_Client.pk_client=tbl_Purchase.fk_client 
-inner join tbl_Person on tbl_Person.id_person=tbl_Client.pk_client where tbl_Person.document='178.493.696-79'
+select * from tbl_Purchase 
+inner join tbl_client on tbl_Client.pk_client=tbl_Purchase.fk_client 
+inner join tbl_Person on tbl_Person.id_person=tbl_Client.pk_client 
+where tbl_Person.document='178.493.696-79'
 
 /* - Selecionar as vendas de um determinado dono de loja. */
-select * from tbl_Purchase inner join tbl_Store on tbl_Store.id_store=tbl_Purchase.fk_store 
-inner join tbl_Owner on tbl_Owner.pk_owner = tbl_Store.fk_owner where tbl_Owner.pk_owner = 5
+select * from tbl_Purchase 
+inner join tbl_Store on tbl_Store.id_store=tbl_Purchase.fk_store 
+inner join tbl_Owner on tbl_Owner.pk_owner = tbl_Store.fk_owner 
+where tbl_Owner.pk_owner = 5
 
 /* - Selecionar a quantidade de determinado produto dos estoques de todas as lojas. */
 select sum(quantity) as 'Quantity' from tbl_Stocks where fk_product = 12
 
+
+\\ Deveria passar primeiro por client antes de ir para person
 /* -  Selecionar quais clientes têm em suas WishList um determinado produto pelo nome do produto. */
 select tbl_Person.name from tbl_WishList 
 inner join tbl_Product on tbl_Product.id_product=tbl_WishList.fk_product 

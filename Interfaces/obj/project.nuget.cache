@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9pkLJX5TegjlzUSjq/fvYmE39bVAW0YPLCpDDCkxMAY09G8rA3tDnVI+oo/5CXMsBsXf/UObyJqpCc1+ADTX6Q==",
+  "dgSpecHash": "ra8Ki4ZjfxFuTL1EgOPOxjuZNB87wfVeQohjQ1aR1Rz7yGNSfPPQ96xmu7RTiYOehrR9UhDZ7Zq3KONc6zHFow==",
   "success": true,
-  "projectFilePath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\Interfaces\\Interfaces.csproj",
+  "projectFilePath": "/home/gustavoaulas/Projetos/Api/Interfaces/Interfaces.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\disrct\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\disrct\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "/home/gustavoaulas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/gustavoaulas/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
