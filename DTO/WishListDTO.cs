@@ -1,5 +1,12 @@
-namespace WishListDTO
+using System;
+
+namespace DTO
 {
-    public ClientDTO ClientDTO;
-    List<ProductDTO> products = new List<ProductDTO>;
+    public class WishListDTO
+    {
+        public ClientDTO ClientDTO;
+        List<ProductDTO> products = new List<ProductDTO>();
+
+    }
+    
 }

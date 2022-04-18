@@ -9,5 +9,5 @@ public class PurchaseDTO
     public int purchase_status;
     public DateTime data_purchase;
 
-    List<ProductDTO> products = new List<ProductDTO>;
+    List<ProductDTO> products = new List<ProductDTO>();
 }
