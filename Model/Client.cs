@@ -61,7 +61,7 @@ namespace Model
                 var address = new DAO.Address
                 {
 
-                }
+                };
                 var client = new DAO.Client{
                     name = this.name,
                     date_of_birth = this.date_of_birth,
@@ -70,7 +70,14 @@ namespace Model
                     phone = this.phone,
                     login = this.login,
                    
-                    address = this.address
+                    address = new DAO.Address{
+                    street = address.getStreet(),
+                    city = address.getCity(),
+                    state = address.getState(),
+                    country = address.getCountry(),
+                    poste_code = address.getPostalCode()
+                    },
+                    passwd = this.passwd
                 };
 
             context.Client.Add(client);
@@ -100,7 +107,8 @@ namespace Model
             clientDTO.email = this.email;
             clientDTO.phone = this.phone;
             clientDTO.login = this.login;
-            clientDTO.address = this.address;
+            clientDTO.address = this.address.convertModelToDTO();
+            return clientDTO;
         }
     }
 }

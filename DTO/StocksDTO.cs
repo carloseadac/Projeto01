@@ -1,6 +1,6 @@
 namespace DTO;
 
-public class Stocks
+public class StocksDTO
 {
 
     public Double quantity;

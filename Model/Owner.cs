@@ -46,7 +46,8 @@ namespace Model
             owner.setEmail(obj.email);
             owner.setPhone(obj.phone);
             owner.setLogin(obj.login);
-            
+            owner.passwd = obj.passwd;
+            owner.document = obj.document;
             return owner;
         }
         public void delete(OwnerDTO obj){
@@ -93,7 +94,8 @@ namespace Model
             ownerDTO.email = this.email;
             ownerDTO.phone = this.phone;
             ownerDTO.login = this.login;
-            ownerDTO.address = this.address;
+            ownerDTO.address = this.address.convertModelToDTO;
+            return ownerDTO;
         }
     }
 }

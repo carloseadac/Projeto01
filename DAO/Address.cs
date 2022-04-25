@@ -2,11 +2,10 @@ namespace DAO;
 
 public class Address
 {
-    public int id;
-    public string city;
-    public string state;
-    public string country;
-    public string postal_code;
-    public string street;
-
+   public int id { get; set; }
+    public String street { get; set; }
+    public String city { get; set; }
+    public String state { get; set; }
+    public String country { get; set; }
+    public String postal_code { get; set; }
 }

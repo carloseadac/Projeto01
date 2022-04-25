@@ -1,15 +1,15 @@
+using Enums;
 namespace DAO;
 
 public class Purchase
 {
     public int id;
-    public string number_confirmation;
-    public string number_nf;
-    public int payment_type;
-    public string purchase_status;
-    public DateTime data_purchase;
-    
-    public Product product;
-    public Client client;
     public Store store;
+    public Client client;
+    public Product product;
+    public DateTime date_purchase;
+    public String number_confirmation;
+    public String number_nf;
+    public PaymentEnum payment_type;
+    public PurchaseStatusEnum purchase_status;
 }

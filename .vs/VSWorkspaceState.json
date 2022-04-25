@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\console",
     "\\DAO",
     "\\DTO",
+    "\\Interfaces",
     "\\Model"
   ],
-  "SelectedNode": "\\Model\\Address.cs",
+  "SelectedNode": "\\Model\\Client.cs",
   "PreviewInSolutionExplorer": false
 }
