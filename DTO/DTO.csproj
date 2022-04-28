@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <ProjectReference Include="..\Enums\Enums.csproj" />
+  </ItemGroup>
+
 </Project>

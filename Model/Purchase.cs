@@ -5,26 +5,31 @@ using System.Text;
 using System.Threading.Tasks;
 using Enums;
 using Interfaces;
+using DAO;
+using DTO;
 
 namespace Model
 {
-    public class Purchase : IValidateDataObject<Purchase>
+    public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purchase>
     {
         //declarando variaveis
         private DateTime date_purchase;
-        private String number_confirmation = "";
-        private String number_nf = "";
+        private String number_confirmation;
+        private String number_nf;
         private Client client;
         private Store store;
 
-        private int payment;
-        private int purchase_status;
-        private double purchase_values = 0;
+        private PaymentEnum payment_type;
+        private PurchaseStatusEnum purchase_status;
 
-        private List<Product> products;
+        private List<Product> products = new List<Product>();
+        public List<PurchaseDTO> purchaseDTO = new List<PurchaseDTO>();
 
-
-
+        public Purchase(){}
+        public Purchase(Store store, Client client){
+            this.store = store;
+            this.client = client;
+        }
         //getters e setters
         public DateTime getDataPurchase()
         {
@@ -34,7 +39,7 @@ namespace Model
         {
             this.date_purchase = date_purchase;
         }
-       
+
         public string getNumberConfirmation()
         {
             return number_confirmation;
@@ -76,30 +81,131 @@ namespace Model
         {
             this.products = products;
         }
-        
 
-        public int getPaymentType() => payment;
-        public void setPaymentType(PaymentEnum payment) { this.payment = (int)payment; }
-
-        public int getPurchaseStatus() => purchase_status;
-        public void setPurchaseStatus(PurchaseStatusEnum purchase_status) { this.purchase_status = (int)purchase_status; }
-
-        public double getPurchaseValues() => purchase_values;
-        public void setPurchaseValues(double purchase_values) {this.purchase_values = purchase_values; }
-
-        public bool validateObject(Purchase obj)
+        public void setPurchaseStatus(PurchaseStatusEnum purchase_status)
         {
-            if(obj.client == null) return false;
-            if(obj.store == null) return false;
-            if(obj.number_confirmation == null) return false;
-            if(obj.number_nf == null) return false;
-            if(obj.payment == 0) return false;
-            if(obj.products == null) return false;
-            if(obj.purchase_status == 0) return false;
-            if(obj.purchase_values == 0) return false;
-            if(obj.date_purchase > DateTime.Now || DateTime.Compare(obj.date_purchase,new DateTime(1900,1,1)) < 0) return false;
+            this.purchase_status = purchase_status;
+        }
+        public PurchaseStatusEnum getPurchaseStatus()
+        {
+            return purchase_status;
+        }
+        public void setPaymentType(PaymentEnum payment_type){
+            this.payment_type = payment_type;
+        }
+        public PaymentEnum getPaymentType(){
+            return payment_type;
+        }
+        
+        public bool validateObject()//Purchase obj)
+        {
+             if(this.getDataPurchase() == null)
+            {
+                return false;
+            }
+            else if(this.getNumberConfirmation() == null)
+            {
+                return false;
+            }
+            else if(this.getNumberNf() == null)
+            {
+                return false;
+            }
+            //if(obj.client == null) return false;
+            //if(obj.store == null) return false;
+            //if(obj.number_confirmation == null) return false;
+            //if(obj.number_nf == null) return false;
+            //if(obj.payment_type == 0) return false;
+            //if(obj.products == null) return false;
+            //if(obj.purchase_status == 0) return false;
+            //if(obj.purchase_values == 0) return false;
+            //if(obj.date_purchase > DateTime.Now || DateTime.Compare(obj.date_purchase,new DateTime(1900,1,1)) < 0) return false;
             return true;
         }
+        public void delete(PurchaseDTO obj){
 
-    }
+        }
+
+        public int save()
+        {
+            var id = 0;
+
+            using(var context = new DaoContext())
+            {
+                var clientDAO = context.clients.FirstOrDefault(c => c.id == 1);
+                var storeDAO = context.stores.FirstOrDefault(s => s.id == 1);
+                var productsDAO = context.products.Where(p => p.id ==1).Single();
+
+                var purchase = new DAO.Purchase{
+                    date_purchase = this.date_purchase,
+                    number_confirmation = this.number_confirmation,
+                    number_nf = this.number_nf,
+                    payment_type = this.payment_type,
+                    purchase_status = this.purchase_status,
+                    client = clientDAO,
+                    store = storeDAO,
+                    product = productsDAO
+                };
+
+                context.purchases.Add(purchase);
+                context.Entry(purchase.client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                context.Entry(purchase.store).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                context.Entry(purchase.product).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                context.SaveChanges();
+                id = purchase.id;
+            }
+         return id;
+        }
+
+        public void update(PurchaseDTO obj){
+
+        }
+
+        public void updateStatus(PurchaseStatusEnum PurchaseStatusEnum){
+            this.purchase_status = PurchaseStatusEnum;
+        }
+
+        public PurchaseDTO findById(int id){
+            return new PurchaseDTO();
+        }
+
+        public List<PurchaseDTO> getAll(){
+            return this.purchaseDTO;
+        }
+
+        public PurchaseDTO convertModelToDTO(){
+            var purchaseDTO = new PurchaseDTO();
+            purchaseDTO.date_purchase = this.date_purchase;
+            purchaseDTO.number_confirmation = this.number_confirmation;
+            purchaseDTO.number_nf = this.number_nf;
+            purchaseDTO.payment_type = this.payment_type;
+            purchaseDTO.purchase_status = this.purchase_status;
+            foreach(var prod in this.products){
+                purchaseDTO.products.Add(prod.convertModelToDTO());
+            }
+            return purchaseDTO;
+        }
+
+        public static Purchase convertDTOToModel(PurchaseDTO obj){
+            Purchase purchase = new Purchase();
+            purchase.setClient(Client.convertDTOToModel(obj.client));
+            purchase.setStore(Store.convertDTOToModel(obj.store));
+            purchase.setDataPurchase(obj.date_purchase);
+            purchase.setNumberConfirmation(obj.number_confirmation);
+            purchase.setNumberNf(obj.number_nf);
+            purchase.setPaymentType(obj.payment_type);
+            purchase.setPurchaseStatus(obj.purchase_status);
+            List<Product> products = new List<Product>();
+            foreach(ProductDTO prod in obj.products){ //!!!!!!!!!!!!!!!!!!!!!!
+                products.Add(Product.convertDTOToModel(prod));
+            }
+            purchase.setProducts(products);
+            return purchase;
+        }
+
+        public void addNewProduct(Product prod){
+            products.Add(prod);
+        }
+
+        }
 }
