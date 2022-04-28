@@ -70,7 +70,7 @@ public class DaoContext : DbContext
             entity.Property(a=> a.number_nf).IsRequired();
             entity.Property(a=> a.payment_type).IsRequired();
             entity.Property(a=> a.purchase_status).IsRequired();
-            entity.Property(a=> a.data_purchase).IsRequired();
+            entity.Property(a=> a.date_purchase).IsRequired();
 
             entity.HasOne(a=>a.client);
             entity.HasOne(a=>a.product);
@@ -86,14 +86,14 @@ public class DaoContext : DbContext
         });
         modelBuilder.Entity<WishList>(entity =>
         {
-            entity.HasNoKey();
+            entity.HasKey(e => e.id);
             entity.HasOne(a=>a.client);
             entity.HasOne(a=>a.product);
         });
         modelBuilder.Entity<Store>(entity =>
         {
             entity.HasKey(a => a.id);
-            entity.Property(a=>a.Name).IsRequired();
+            entity.Property(a=>a.name).IsRequired();
             entity.Property(a=>a.CNPJ).IsRequired();
             entity.HasOne(a=>a.owner);
         });

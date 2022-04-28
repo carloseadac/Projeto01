@@ -13,11 +13,12 @@ namespace Model
     {
         private static Client instance;
         public List<ClientDTO> clientDTO = new List<ClientDTO>();
-        Guid uuid = Guid.NewGuid();
+        Guid guidClient = Guid.NewGuid();
 
         //construtor
         private Client(Address address) : base(address) { this.address = address; }
 
+        public Client(){}
  
         public static Client getInstance(Address address)
         {
@@ -30,62 +31,58 @@ namespace Model
         
         public bool validateObject()
         {
-            if(this.date_of_birth > DateTime.Now || DateTime.Compare(this.date_of_birth,new DateTime(1900,1,1)) < 0) return false;
-            if(this.email == null) return false;
-            if(this.document == null) return false;
-            if(this.name == null) return false;            
-            if(this.phone == null) return false;             
-            if(this.login == null) return false;      
+            if(this.getDate_of_birth()== null) return false;
+            if(this.getEmail() == null) return false;
+            if(this.getDocument() == null) return false;
+            if(this.getName() == null) return false;            
+            if(this.getPhone() == null) return false;             
+            if(this.getLogin() == null) return false;    
+            if(this.getPasswd() == null) return false;  
             return true;
         }
         
-        public Client convertDTOToModel(ClientDTO obj)
-        {
-            var client = new Client(Address.convertDTOToModel(obj.address));
-            client.setDocument(obj.document);
-            client.setName(obj.name);
-            client.SetDate_of_birth(obj.date_of_birth);
-            client.setEmail(obj.email);
-            client.setPhone(obj.phone);
-            client.setLogin(obj.login);
-            
-            return client;
-        }
+        
         public void delete(ClientDTO obj){
         }
         public int save()
         {
             var id = 0;
+
             using(var context = new DaoContext())
             {
-                var address = new DAO.Address
-                {
+                Console.WriteLine("entrou");
+                var addressDAO =  new DAO.Address();
+                addressDAO.street = this.address.getStreet();
+                Console.WriteLine("entrou street");
 
-                };
-                var client = new DAO.Client{
-                    name = this.name,
-                    date_of_birth = this.date_of_birth,
-                    document = this.document,
-                    email = this.email,
-                    phone = this.phone,
-                    login = this.login,
-                   
-                    address = new DAO.Address{
-                    street = address.getStreet(),
-                    city = address.getCity(),
-                    state = address.getState(),
-                    country = address.getCountry(),
-                    poste_code = address.getPostalCode()
-                    },
-                    passwd = this.passwd
-                };
+                addressDAO.city = this.address.getCity();
+                Console.WriteLine("entrou city");
 
-            context.Client.Add(client);
-            context.SaveChanges();
-            id = client.id;
+                addressDAO.state = this.address.getState();
+                Console.WriteLine("entrou state");
+
+                addressDAO.country = this.address.getCountry();
+                Console.WriteLine("entrou country");
+
+                addressDAO.postal_code = this.address.getPostalCode();
+                Console.WriteLine("entrou postalcode");
+
+                var client = new DAO.Client();
+                client.name = this.name;
+                client.date_of_birth = this.date_of_birth;
+                client.document = this.document;
+                client.email = this.email;
+                client.phone = this.phone;
+                client.login = this.login;
+                client.address = addressDAO;
+                client.passwd = this.passwd;
+
+                context.clients.Add(client);
+                context.SaveChanges();
+                id = client.id;
 
             }
-         return id;
+            return id;
         }
         public void update(ClientDTO obj){
 
@@ -108,7 +105,22 @@ namespace Model
             clientDTO.phone = this.phone;
             clientDTO.login = this.login;
             clientDTO.address = this.address.convertModelToDTO();
+            clientDTO.passwd = this.passwd;
             return clientDTO;
+        }
+        public static Client convertDTOToModel(ClientDTO obj)
+        {
+            var client = new Client();
+
+            client.setDocument(obj.document);
+            client.setName(obj.name);
+            client.SetDate_of_birth(obj.date_of_birth);
+            client.setEmail(obj.email);
+            client.setPhone(obj.phone);
+            client.setLogin(obj.login);
+            client.setPasswd(obj.passwd);
+            client.address = Address.convertDTOToModel(obj.address);
+            return client;
         }
     }
 }

@@ -10,3 +10,8 @@ S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\refint\DAO.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\DAO.pdb
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\ref\DAO.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\bin\Debug\net6.0\DAO.runtimeconfig.json
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\bin\Debug\net6.0\Enums.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\bin\Debug\net6.0\Enums.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\DAO.csproj.CopyComplete
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\DAO.genruntimeconfig.cache

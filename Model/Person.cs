@@ -19,11 +19,12 @@ namespace Model
         protected String phone;
         protected String login;
         protected String passwd;
-        protected int age;
         protected Address address;
 
         //construtor
-        public Person(Address address) { this.address = address; }
+        protected Person(Address address) { this.address = address; }
+
+        public Person(){}
 
         //getters e setters
         public DateTime getDate_of_birth()
@@ -33,14 +34,6 @@ namespace Model
         public void SetDate_of_birth(DateTime date_of_birth)
         {
             this.date_of_birth = date_of_birth;
-        }
-        public int getAge()
-        {
-            return age;
-        }
-        public void setAge(int age)
-        {
-            this.age = age;
         }
         public string getName()
         {
@@ -90,7 +83,7 @@ namespace Model
         {
             this.address = address;
         }
-        public Address getPasswd()
+        public string getPasswd()
         {
             return passwd;
         }

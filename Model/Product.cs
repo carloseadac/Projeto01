@@ -17,19 +17,11 @@ namespace Model
         private String name;
         //private Double unit_price;
         private String bar_code;
-        private Store store;
 
 
-        public List<ProductDTO> productDTO = new List<ProductDTO>();
+        List<ProductDTO> productDTO = new List<ProductDTO>();
 
-        public static Product convertDTOToModel(ProductDTO obj)
-        {
-            var product = new Product();
-            product.setName(obj.name);
-            product.setBarCode(obj.barCode);
-            return product;
-        }
-
+        
 
         //construtor
         public Product()
@@ -75,15 +67,16 @@ namespace Model
             return new ProductDTO();
         }
 
-        public List<ProductDTO> getAll(){
-            return this.ProductDTO;
+        public List<ProductDTO> getAll()
+        {
+            return this.productDTO;
         }
 
         public ProductDTO convertModelToDTO(){
             var productDTO = new ProductDTO();
             productDTO.name = this.name;
-            productDTO.barCode = this.barCode;
-            productDTO.store = this.store.convertModelToDTO();
+            productDTO.bar_code = this.bar_code;
+            
             return productDTO;
         }
         
@@ -99,22 +92,32 @@ namespace Model
 
         public int save()
         {
-            var id = 0;
+             var id = 0;
 
-            using(var context = new DAOContext())
+            using(var context = new DaoContext())
             {
                 var product = new DAO.Product{
                     name = this.name,
-                    barCode = this.barCode,
-                    store = this.store
-             };
+                    bar_code = this.bar_code,
+                };
 
-                context.Product.Add(product);
+                context.products.Add(product);
                 context.SaveChanges();
                 id = product.id;
-
             }
-              return id;
+            return id;
         }
+
+        public static Product convertDTOToModel(ProductDTO obj)
+        {
+
+            Product product = new Product();
+
+            product.setBarCode(obj.bar_code);
+            product.setName(obj.name);
+
+            return product;
+        }
+        
     }
 }

@@ -12,16 +12,23 @@ namespace Model
     public class Store : IValidateDataObject
     {
         //declarando variáveis
+        Owner owner;
         private String name;
         private String cnpj;
-        private Owner owner;
-        public List<StoreDTO> StoreDTO = new List<StoreDTO>();
+        List<StoreDTO> StoreDTO = new List<StoreDTO>();
         public List<Purchase> purchases = new List<Purchase>();
+        public void addNewPurchase(Purchase purchase){
+        purchases.Add(purchase);
+        }
 
         //construtor
         public Store(Owner owner)
         {
             this.owner = owner;
+        }
+
+        public Store(){
+
         }
 
         //getters e setters
@@ -53,10 +60,7 @@ namespace Model
         {
             return purchases;
         }
-        public void addNewPurchase(Purchase purchase)
-        {
-            purchases.Add(purchase);
-        }
+
 
         public bool validateObject()//Store obj)
         {
@@ -67,76 +71,70 @@ namespace Model
             return true;
         }
 
-        public static Store convertDTOToModel(StoreDTO obj)
-        {
-            var store = new Store(Owner.convertDTOToModel(obj.owner));
-            store.setName(obj.name);
-            store.setCNPJ(obj.CNPJ);        
-            foreach(var item in obj.purchase){
-                store.purchase.Add(Purchase.convertDTOToModel(item));
-            }
-            
-            return  store;
-        }
-        public void delete(StoreDTO obj)
-        {
+        public void delete(StoreDTO obj){
 
         }
-        public int save()
+
+        public int save(int owner)
         {
             var id = 0;
 
-            using(var context = new DAOContext())
+            using(var context = new DaoContext())
             {
-                var ownerDAO = context.owner.Where(c => c.id == owner).Single();
+                var ownerDAO = context.owners.Where(c => c.id == owner).Single();
                 var store = new DAO.Store{
+                    owner = ownerDAO,
                     name = this.name,
-                    CNPJ = this.CNPJ,
-                    owner = ownerDAO
+                    CNPJ = this.cnpj
+                    //lista de purchase
                 };
 
-                context.Store.Add(store);
-
+                context.stores.Add(store);
+                context.Entry(store.owner).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
                 context.SaveChanges();
-
                 id = store.id;
-
             }
-             return id;
+            return id;
         }
 
-        public void update(StoreDTO obj)
-        {
+        public void update(StoreDTO obj){
 
         }
 
-        public StoreDTO findById(int id)
-        {
-
+        public StoreDTO findById(int id){
             return new StoreDTO();
         }
 
-        public List<StoreDTO> getAll()
-        {        
-            return this.storeDTO;      
+        public List<StoreDTO> getAll(){
+            return this.StoreDTO;
         }
 
-    
-        public StoreDTO convertModelToDTO()
-        {
+        public StoreDTO convertModelToDTO(){
             var storeDTO = new StoreDTO();
-
-            StoreDTO.name = this.name;
-
-            StoreDTO.CNPJ = this.CNPJ;
-
-            StoreDTO.owner = this.owner.convertModelToDTO();
-
-            foreach(var item in this.purchases){
-                storeDTO.purchase.Add(item.convertModelToDTO());
+            storeDTO.name = this.name;
+            storeDTO.CNPJ = this.cnpj;
+            storeDTO.OwnerDTO = this.owner.convertModelToDTO();
+            foreach(var purchase in this.purchases){
+                storeDTO.purchases.Add(purchase.convertModelToDTO());
             }
 
             return storeDTO;
+        }
+
+        public static Store convertDTOToModel(StoreDTO obj){
+            var store = new Store();
+
+            if(obj.OwnerDTO != null){
+                store.owner = Owner.convertDTOToModel(obj.OwnerDTO);
+            }
+
+            store.setCNPJ(obj.CNPJ);
+            store.setName(obj.name);
+            foreach(var purchase in obj.purchases){
+                store.addNewPurchase(Purchase.convertDTOToModel(purchase));
+            }
+
+            return store;
         }
 
 

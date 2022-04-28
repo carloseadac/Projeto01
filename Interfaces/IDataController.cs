@@ -8,8 +8,6 @@ public interface IDataController<T, O>
 
     public List<T> getAll();
 
-    public int save();
-
     public void update(T obj);
 
     public void delete(T obj);

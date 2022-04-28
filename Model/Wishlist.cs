@@ -12,12 +12,14 @@ namespace Model
     public class WishList : IValidateDataObject, IDataController<WishListDTO, WishList>
     {
         private Client client;
-        List<Product> products = new List<Product>();
-
+        private List<Product> products = new List<Product>();
+        List<WishListDTO> wishListDTO = new List<WishListDTO>();
         //construtor
         public WishList(Client client)
         {
              this.client = client;
+        }
+        public WishList(){
         }
 
         //getters
@@ -29,11 +31,18 @@ namespace Model
         {
             return products;
         }
+        public void setProducts(List<Product> products)
+        {
+            this.products = products;
+        }
 
         //set
         public void addProductToWishList(Product product)
         {
-            products.Add(product);
+            if (!getProducts().Contains(product))
+            {
+                this.products.Add(product);
+            }
         }
         public void setClient(Client client)
         {
@@ -56,19 +65,23 @@ namespace Model
 
         }
 
-        public int save()
+        public int save(int client, int prod)
         {
             var id = 0;
 
             using(var context = new DaoContext())
             {
-                var clientDAO = context.clients.Where(c => c.document == clientDoc).Single();
+                var clientDAO = context.clients.Where(c => c.id == client).Single();
+                var productDAO = context.products.Where(c => c.id == prod).Single();
+                
                 var wl = new DAO.WishList{
-                    client = clientDAO
+                    client = clientDAO,
+                    product = productDAO
                 };
 
                 context.wishLists.Add(wl);
                 context.Entry(wl.client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                context.Entry(wl.product).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
                 context.SaveChanges();
                 id = wl.id;
             }
@@ -92,17 +105,34 @@ namespace Model
         {        
             return this.wishListDTO;      
         }
-
-    
         public WishListDTO convertModelToDTO()
         {
             var wishListDTO = new WishListDTO();
-
             wishListDTO.client = this.client.convertModelToDTO();
 
-            wishListDTO.listaProdutos = this.listaProdutos;
-
+            foreach(var prod in this.products){
+                wishListDTO.products.Add(prod.convertModelToDTO());
+            }
             return wishListDTO;
+        }
+
+    
+        public static WishList convertDTOToModel(WishListDTO obj)
+        {
+
+            var wishList = new WishList();
+
+            wishList.setClient(Client.convertDTOToModel(obj.client));
+
+            List<Product> products = new List<Product>();
+            foreach (ProductDTO prod in obj.products)
+            {
+                products.Add(Product.convertDTOToModel(prod));
+            }
+
+            wishList.setProducts(products);
+
+            return wishList;
         }
     }
 }

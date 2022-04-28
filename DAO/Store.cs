@@ -2,7 +2,7 @@ namespace DAO;
 
 public class Store
 {
-    public string Name;
+    public string name;
     public string CNPJ;
     public int id;
 
