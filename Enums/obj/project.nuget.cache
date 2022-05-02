@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UpBrkGyD997zniXfk2a9AjSImNELhxpMOBUBLow7I6uUjvzSPFHfOsF8kt7fTVFcbRHoQkYbn4nEszAPt5V1Og==",
+  "dgSpecHash": "T4SQChKu8cgFr+OIZ6ShuQg46zp1R4h9wvfJPSg315EEVE81Gf1qkmBJEXd8OYFzZMuhqMfm7GbJTkbin7DtPw==",
   "success": true,
-  "projectFilePath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\Enums\\Enums.csproj",
+  "projectFilePath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\Enums\\Enums.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
