@@ -4,23 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Interfaces;
+using DAO;
+using DTO;
 
 namespace Model
 {
     public class Person
     {
         //declarando variáveis
-        protected String name = "";
+        protected String name;
         protected DateTime date_of_birth;
-        protected String document = "";
-        protected String email = "";
-        protected String phone = "";
-        protected String login = "";
-        protected int age = 0;
+        protected String document;
+        protected String email;
+        protected String phone;
+        protected String login;
+        protected String passwd;
         protected Address address;
 
         //construtor
-        public Person(Address address) { this.address = address; }
+        protected Person(Address address) { this.address = address; }
+
+        public Person(){}
 
         //getters e setters
         public DateTime getDate_of_birth()
@@ -30,14 +34,6 @@ namespace Model
         public void SetDate_of_birth(DateTime date_of_birth)
         {
             this.date_of_birth = date_of_birth;
-        }
-        public int getAge()
-        {
-            return age;
-        }
-        public void setAge(int age)
-        {
-            this.age = age;
         }
         public string getName()
         {
@@ -87,6 +83,15 @@ namespace Model
         {
             this.address = address;
         }
+        public string getPasswd()
+        {
+            return passwd;
+        }
+        public void setPasswd(string passwd)
+        {
+            this.passwd = passwd;
+        }
+
 
         
     }

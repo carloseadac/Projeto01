@@ -1,11 +1,20 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\DTO",
     "\\Interfaces",
     "\\Model",
     "\\testesAutomatizados"
   ],
   "SelectedNode": "\\Model\\Person.cs",
+=======
+    "\\DAO",
+    "\\DTO",
+    "\\Interfaces",
+    "\\Model"
+  ],
+  "SelectedNode": "\\Model\\Client.cs",
+>>>>>>> 866e7084f1fb1e4c5336d1ef317d2049bcf4dadc
   "PreviewInSolutionExplorer": false
 }

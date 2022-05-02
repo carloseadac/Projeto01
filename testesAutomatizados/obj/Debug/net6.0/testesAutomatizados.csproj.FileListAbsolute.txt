@@ -1,3 +1,148 @@
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/NUnit3.TestAdapter.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/nunit.engine.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/nunit.engine.api.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/testesAutomatizados.deps.json
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/testesAutomatizados.runtimeconfig.json
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/testesAutomatizados.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/testesAutomatizados.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.DotNet.InternalAbstractions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.TestPlatform.CommunicationUtilities.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.TestPlatform.CrossPlatEngine.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/testhost.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/NuGet.Frameworks.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/nunit.framework.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/System.Xml.XPath.XmlDocument.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Enums.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Interfaces.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Model.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Model.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Enums.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Interfaces.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.csproj.AssemblyReference.cache
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.GeneratedMSBuildEditorConfig.editorconfig
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.AssemblyInfoInputs.cache
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.AssemblyInfo.cs
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.csproj.CoreCompileInputs.cache
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.csproj.CopyComplete
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/refint/testesAutomatizados.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/testesAutomatizados.genruntimeconfig.cache
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/obj/Debug/net6.0/ref/testesAutomatizados.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/MySql.Data.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/DAO.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/DTO.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/DTO.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/DAO.pdb
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/EntityFramework.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/System.Data.Entity.Repository.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Google.Protobuf.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/K4os.Compression.LZ4.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/K4os.Compression.LZ4.Streams.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/K4os.Hash.xxHash.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/Ubiety.Dns.Core.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/ZstdNet.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/MySql.EntityFrameworkCore.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/System.Drawing.Common.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/System.Security.Permissions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/System.Windows.Extensions.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/gustavoaulas/Projetos/Api/testesAutomatizados/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\refint\testesAutomatizados.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.pdb
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.csproj.AssemblyReference.cache
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.GeneratedMSBuildEditorConfig.editorconfig
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.AssemblyInfoInputs.cache
@@ -11,8 +156,33 @@ S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\testesAutomatizados.runtimeconfig.json
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\testesAutomatizados.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\testesAutomatizados.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\EntityFramework.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.DotNet.InternalAbstractions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -21,9 +191,22 @@ S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\testhost.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Newtonsoft.Json.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\NuGet.Frameworks.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\nunit.framework.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.CodeDom.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Data.SqlClient.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Drawing.Common.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Runtime.Caching.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Security.Permissions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Windows.Extensions.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
@@ -90,15 +273,48 @@ S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\DAO.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\DTO.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Enums.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Interfaces.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Model.dll
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Model.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\DTO.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\DAO.pdb
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Enums.pdb
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\bin\Debug\net6.0\Interfaces.pdb
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.csproj.CopyComplete
-S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.dll
-S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\refint\testesAutomatizados.dll
-S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.pdb
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.genruntimeconfig.cache
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\testesAutomatizados\obj\Debug\net6.0\ref\testesAutomatizados.dll
