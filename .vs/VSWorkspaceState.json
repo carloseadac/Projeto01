@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DTO",
+    "\\Interfaces",
+    "\\Model",
+    "\\testesAutomatizados"
   ],
-  "SelectedNode": "\\C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01",
+  "SelectedNode": "\\Model\\Person.cs",
   "PreviewInSolutionExplorer": false
 }
