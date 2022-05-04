@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Interfaces;
 using DAO;
 using DTO;
+using Microsoft.EntityFrameworkCore;
 
 namespace Model
 {

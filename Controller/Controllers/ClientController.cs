@@ -28,7 +28,7 @@ public class ClientController : ControllerBase
     [HttpGet]
     [Route("get/{document}")]
     public object getInformations(String document){
-        var client = model.Client.find(document);
+        var client = Model.Client.find(document);
         return client;
     }
 }

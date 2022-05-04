@@ -11,7 +11,7 @@ public class StoreController : ControllerBase {
     [HttpGet]
     [Route("get/all")]
      public object getAllStore(){ 
-        var lojas = model.Store.getStores();
+        var lojas = Model.Store.getStores();
         return lojas;
      }
 
@@ -19,11 +19,11 @@ public class StoreController : ControllerBase {
     [Route("register")]
     public Object regiterStore([FromBody] StoreDTO storeDTO){
         var store = Store.convertDTOToModel(storeDTO);
-        var id = store.save(model.Store.getOwnerId(store.getOwner()));
+        var id = store.save(Model.Store.getOwnerId(store.getOwner()));
         return new{
             name = storeDTO.name,
             cnpj = storeDTO.CNPJ,
-            owner = storeDTO.owner,
+            owner = storeDTO.OwnerDTO,
             id = id
         };
     }
@@ -31,7 +31,7 @@ public class StoreController : ControllerBase {
     [HttpGet]
     [Route("getStore/{CNPJ}")]
     public Object getStoreInformation(string cnpj){
-        var store = model.Store.getStoreInfo(cnpj);
+        var store = Model.Store.getStoreInfo(cnpj);
         return store;
     }
 }

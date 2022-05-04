@@ -27,3 +27,4 @@ public class WishListController : ControllerBase{
         public void removeProductToWishList(Object obj){
 
         }
+}

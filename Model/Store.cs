@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Interfaces;
 using DTO;
 using DAO;
@@ -155,8 +156,9 @@ namespace Model
                 foreach(var store in stores){
                     lojas.Add(store);
                 }
+                return lojas;
             }
-            return lojas;
+            
         }
         public static int getOwnerId(Owner owner){
             int id;

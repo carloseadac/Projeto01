@@ -29,7 +29,7 @@ public class OwnerController : ControllerBase
     [HttpGet]
     [Route("get/{document}")]
     public object getInformations(String document){
-        var owner = model.Owner.find(document);
+        var owner = Model.Owner.find(document);
         return owner;
     }
 }

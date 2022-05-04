@@ -7,6 +7,7 @@ using Enums;
 using Interfaces;
 using DAO;
 using DTO;
+using Microsoft.EntityFrameworkCore;
 
 namespace Model
 {
@@ -132,9 +133,7 @@ namespace Model
 
             using(var context = new DaoContext())
             {
-                var clientDAO = context.clients.FirstOrDefault(c => c.id == 1);
-                var storeDAO = context.stores.FirstOrDefault(s => s.id == 1);
-                var productsDAO = context.products.Where(p => p.id ==1).Single();
+                if(this.products.Count() <= 0 ){return -1;}
 
                 var purchase = new DAO.Purchase{
                     date_purchase = this.date_purchase,
@@ -142,9 +141,9 @@ namespace Model
                     number_nf = this.number_nf,
                     payment_type = this.payment_type,
                     purchase_status = this.purchase_status,
-                    client = clientDAO,
-                    store = storeDAO,
-                    product = productsDAO
+                    client = context.clients.Where(c => c.document == this.client.getDocument()).Single(),
+                    store = context.stores.Where(s => s.CNPJ == this.store.getCNPJ()).Single(),
+                    product = context.products.Where(p => p.bar_code == this.products.First().getBarCode()).Single()
                 };
 
                 context.purchases.Add(purchase);
@@ -152,6 +151,8 @@ namespace Model
                 context.Entry(purchase.store).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
                 context.Entry(purchase.product).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
                 context.SaveChanges();
+                this.products.Remove(products.First());
+                this.save();
                 id = purchase.id;
             }
          return id;
@@ -207,5 +208,41 @@ namespace Model
             products.Add(prod);
         }
 
+        public static List<object> getStorePurchases(int storeID){
+        using(var context = new DaoContext()){
+            var storePurchase = context.purchases
+            .Include(s => s.store)
+            .Include(o => o.store.owner)
+            .Include(a => a.store.owner.address)
+            .Include(p => p.product)
+            .Include(c => c.client)
+            .Include(a => a.client.address)
+            .Where(p => p.store.id == storeID);
+             List<object> compras = new List<object>();
+             foreach(var compra in storePurchase){
+                 compras.Add(compra);
+                }
+                return compras;
+            }
         }
+
+        public static List<object> getClientPurchases(int clientID){
+            using(var context = new DaoContext()){
+                var storePurchase = context.purchases
+                .Include(s => s.store)
+                .Include(o => o.store.owner)
+                .Include(a => a.store.owner.address)
+                .Include(p => p.product)
+                .Include(a => a.client.address)
+                .Where(p => p.client.id == clientID);
+                List<object> compras = new List<object>();
+                foreach(var compra in storePurchase){
+                    compras.Add(compra);
+                }
+                return compras;
+            }
+        }
+
+
+    }
 }
