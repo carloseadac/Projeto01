@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Interfaces;
 using DTO;
 using DAO;
@@ -137,6 +138,36 @@ namespace Model
             return store;
         }
 
+        public static object getStoreInfo(string cnpj){
+            using(var context = new DaoContext()){
+                var storeDAO = context.stores.Include(s => s.owner).Include(s => s.owner.address).FirstOrDefault(p => p.CNPJ == cnpj);
+
+                return new {
+                    name = storeDAO.name,
+                    cnpj = storeDAO.CNPJ,
+                    owner = storeDAO.owner,
+                };
+            }
+        }  
+        public static List<object> getStores(){
+            using (var context = new DaoContext()){
+                var stores = context.stores.Include(s => s.owner).Include(a => a.owner.address);
+                List<object> lojas = new List<object>();
+                foreach(var store in stores){
+                    lojas.Add(store);
+                }
+                return lojas;
+            }
+            
+        }
+        public static int getOwnerId(Owner owner){
+            int id;
+            using(var context = new DaoContext()){
+                var ownerDAO = context.owners.FirstOrDefault(i => i.document == owner.getDocument());
+                id = ownerDAO.id;
+            }
+            return id;
+        }
 
     }
 }

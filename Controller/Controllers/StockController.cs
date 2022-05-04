@@ -1,22 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
 using Model;
+using DTO;
 namespace Controller.Controllers;
 
 
-// [ApiController]
-// [Route("[controller]")]
-// public class StockController : ControllerBase
-// {   
-//     [HttpPost(Name = "addProductToStock")]
-//     public Object addProductToStock(Object request)
-//     {
+[ApiController]
+[Route("stock")]
 
-//     }
+public class StockController : ControllerBase{
+    [HttpPost]
+    public void addProductToStock(Object request){
 
-//     [HttpPut(Name = "updateStock")]
-//     public Object updateStock(Object request)
-//     {
+    }
 
-//     }
+    [HttpPut]
+    public void updateStock(Object request){
 
-// }
+    }
+}

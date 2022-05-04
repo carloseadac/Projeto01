@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Interfaces;
 using DAO;
 using DTO;
+using Microsoft.EntityFrameworkCore;
 
 namespace Model
 {
@@ -122,5 +123,21 @@ namespace Model
             client.address = Address.convertDTOToModel(obj.address);
             return client;
         }
+
+        public static object find(String document){
+        using (var context = new DaoContext()){
+            var client = context.clients.Include(i => i.address).FirstOrDefault(d => d.document == document);
+            return new{
+                name = client.name,
+                date_of_birth = client.date_of_birth,
+                document = client.document,
+                email = client.email,
+                login = client.login,
+                passwd = client.passwd,
+                phone = client.phone,
+                address = client.address
+            };
+        }
+    }
     }
 }
