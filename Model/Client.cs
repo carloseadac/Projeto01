@@ -125,19 +125,19 @@ namespace Model
         }
 
         public static object find(String document){
-        using (var context = new DaoContext()){
-            var client = context.clients.Include(i => i.address).FirstOrDefault(d => d.document == document);
-            return new{
-                name = client.name,
-                date_of_birth = client.date_of_birth,
-                document = client.document,
-                email = client.email,
-                login = client.login,
-                passwd = client.passwd,
-                phone = client.phone,
-                address = client.address
-            };
-        }
-    }
+            using (var context = new DaoContext()){
+                var client = context.clients.Include(i => i.address).FirstOrDefault(d => d.document == document);
+                return new{
+                    name = client.name,
+                    date_of_birth = client.date_of_birth,
+                    document = client.document,
+                    email = client.email,
+                    login = client.login,
+                    passwd = client.passwd,
+                    phone = client.phone,
+                    address = client.address
+                };
+            }
+        }   
     }
 }

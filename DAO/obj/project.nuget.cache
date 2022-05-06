@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xQmKf3YqzBVZU9LMi8foz/9eQltjQ3ivehse0FmVbZqsyCrCjz0kDiBwGA9OaxHcYz12QKbWta2n0JLeZcAIwQ==",
+  "dgSpecHash": "MoT6twuK6ZbipeEOiQGxMM5Cce5jUGxAOUhOuykWdawNcLc63DZcRwYNkI+s/BAzFJv67zAz27Hs9c8D+xVeTw==",
   "success": true,
-  "projectFilePath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\DAO\\DAO.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

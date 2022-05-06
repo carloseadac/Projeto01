@@ -20,7 +20,7 @@ public class ClientController : ControllerBase
             phone = clientDTO.phone,
             login = clientDTO.login,
             passwd = clientDTO.passwd,
-            adress = clientDTO.address,
+            address = clientDTO.address,
             id = id
         };  
     }

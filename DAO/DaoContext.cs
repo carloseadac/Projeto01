@@ -43,7 +43,7 @@ public class DaoContext : DbContext
             entity.Property(a=> a.phone).IsRequired();
             entity.Property(a=> a.login).IsRequired();
             entity.Property(a=> a.passwd).IsRequired();
-
+            entity.Property(a=> a.document).IsRequired();
 
             entity.HasOne(a=> a.address);
             
@@ -58,7 +58,7 @@ public class DaoContext : DbContext
             entity.Property(a=> a.login).IsRequired();
             entity.Property(a=> a.passwd).IsRequired();
             entity.Property(a=> a.date_of_birth).IsRequired();
-
+            entity.Property(a=> a.document).IsRequired();
 
             entity.HasOne(a=> a.address);
            

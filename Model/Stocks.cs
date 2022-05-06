@@ -86,8 +86,8 @@ namespace Model
                 };
 
                 context.stocks.Add(stocks);
-                context.Entry(stocks.store).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
-                context.Entry(stocks.product).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                //context.Entry(stocks.store).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                //context.Entry(stocks.product).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
                 context.SaveChanges();
                 id = stocks.id;
             }

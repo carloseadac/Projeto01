@@ -32,3 +32,37 @@ S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\DAO.pdb
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\DAO.genruntimeconfig.cache
 S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\5 - Desenvolvimento de Sistemas\1 - Alunos\Carlos Costa\2 - Marketplace\DAO\obj\Debug\net6.0\ref\DAO.dll
+C:\Users\disrct\Downloads\Projeto01\DAO\bin\Debug\net6.0\DAO.deps.json
+C:\Users\disrct\Downloads\Projeto01\DAO\bin\Debug\net6.0\DAO.runtimeconfig.json
+C:\Users\disrct\Downloads\Projeto01\DAO\bin\Debug\net6.0\DAO.dll
+C:\Users\disrct\Downloads\Projeto01\DAO\bin\Debug\net6.0\DAO.pdb
+C:\Users\disrct\Downloads\Projeto01\DAO\bin\Debug\net6.0\Enums.dll
+C:\Users\disrct\Downloads\Projeto01\DAO\bin\Debug\net6.0\Enums.pdb
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.csproj.AssemblyReference.cache
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.AssemblyInfoInputs.cache
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.csproj.CopyComplete
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.dll
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\refint\DAO.dll
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.pdb
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\DAO.genruntimeconfig.cache
+C:\Users\disrct\Downloads\Projeto01\DAO\obj\Debug\net6.0\ref\DAO.dll
+C:\Users\disrct\Desktop\Projeto01\DAO\bin\Debug\net6.0\DAO.deps.json
+C:\Users\disrct\Desktop\Projeto01\DAO\bin\Debug\net6.0\DAO.runtimeconfig.json
+C:\Users\disrct\Desktop\Projeto01\DAO\bin\Debug\net6.0\DAO.dll
+C:\Users\disrct\Desktop\Projeto01\DAO\bin\Debug\net6.0\DAO.pdb
+C:\Users\disrct\Desktop\Projeto01\DAO\bin\Debug\net6.0\Enums.dll
+C:\Users\disrct\Desktop\Projeto01\DAO\bin\Debug\net6.0\Enums.pdb
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.csproj.CopyComplete
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.dll
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\refint\DAO.dll
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.pdb
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\DAO.genruntimeconfig.cache
+C:\Users\disrct\Desktop\Projeto01\DAO\obj\Debug\net6.0\ref\DAO.dll

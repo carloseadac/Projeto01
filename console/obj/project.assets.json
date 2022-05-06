@@ -2229,11 +2229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\console\\console.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\console\\console.csproj",
       "projectName": "console",
-      "projectPath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\console\\console.csproj",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\console\\console.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\console\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2250,8 +2250,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\DAO\\DAO.csproj": {
-              "projectPath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\DAO\\DAO.csproj"
+            "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj"
             }
           }
         }
