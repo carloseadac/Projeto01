@@ -60,10 +60,6 @@ namespace Model
             return new WishList(obj.client);
         }
 
-        public void delete(WishListDTO obj)
-        {
-
-        }
 
         public int save(int client, int prod)
         {
@@ -95,10 +91,11 @@ namespace Model
 
         }
 
-        public WishListDTO findById(int id)
-        {
-
-            return new WishListDTO();
+        public static int findId(string document){
+            using(var context = new DaoContext()){
+                var client = context.clients.FirstOrDefault(s => s.document == document);
+                return client.id;
+            }
         }
 
         public List<WishListDTO> getAll()
@@ -133,6 +130,31 @@ namespace Model
             wishList.setProducts(products);
 
             return wishList;
+        }
+        public void delete(){
+            using (var context = new DaoContext()){
+
+                foreach(var prod in this.products){
+                    var client = context.wishLists.FirstOrDefault(i => i.client.document == this.client.getDocument() && i.product.bar_code == prod.getBarCode());
+                    context.wishLists.Remove(client);
+                    context.SaveChanges();
+                    } 
+            }
+        }
+
+        public static string removeWishList(int  id){
+            using(var context = new DaoContext())
+            {
+                var wishList = context.wishLists.FirstOrDefault(w => w.id == id);
+                context.Remove(wishList);  
+                context.SaveChanges();
+                return " foi removido!";
+            }
+        }
+
+        public WishListDTO findById(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -8,9 +8,9 @@ public interface IDataController<T, O>
 
     public List<T> getAll();
 
-    public void update(T obj);
+    // public void update(T obj);
 
-    public void delete(T obj);
+    // public void delete(T obj);
 
     public T convertModelToDTO();
 }

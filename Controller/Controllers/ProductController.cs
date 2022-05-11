@@ -9,7 +9,10 @@ namespace Controller.Controllers;
 public class ProductController : ControllerBase
 {
         [HttpGet]
-        public void allProduct(){
+        [Route("getall")]
+        public object allProduct(){
+                var produtos = Model.Product.getProducts();
+                return produtos; 
 
         }
 
@@ -25,14 +28,26 @@ public class ProductController : ControllerBase
                 };
         }
         [HttpDelete]
+        /*
         [Route("delete")]
-        public void deleteProduct(ProductDTO product){
-          //      Product.delete(product);
-        }
+        public object deleteProduct([FromBody]ProductDTO productDTO){
+          var produto = Model.Product.convertDTOToModel(productDTO);
+                produto.dele();
 
-        [HttpPut]
-        [Route("put")]
-        public void updateProduct(ProductDTO product){
-              //  Product.update(product);
+                return new {
+                        status = "ok",
+                        mensagem = "excluido"
+                };
+
         }
+        */
+        [HttpPut]
+        [Route("update")]
+        public Object updateProduct([FromBody] ProductDTO productDTO){
+                Model.Product.update(productDTO);
+                return new{
+                        status = "ok",
+                        mensagem = "deu boa"
+                };
+         }
 }
