@@ -2209,11 +2209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2230,8 +2230,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
-              "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
+            "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uW0FAGpNDnkJGhcvWo+Go05iJ+j/Hx0d+4DTnSm5ydBsoPWOfk9Ovde3wANXYdZpy2aTC/i7kECSufpKkZyshg==",
+  "dgSpecHash": "FqebCeH6exzOZ41kdg9jAMqT1/1YuX0LfS5878W+vwWYSkQhlM17K1t6O80MQdf278mwXYUXp3sPiX4lKw2wvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

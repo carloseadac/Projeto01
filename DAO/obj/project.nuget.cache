@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MoT6twuK6ZbipeEOiQGxMM5Cce5jUGxAOUhOuykWdawNcLc63DZcRwYNkI+s/BAzFJv67zAz27Hs9c8D+xVeTw==",
+  "dgSpecHash": "T5qI2QFZeJc9E86j6gFVIZYmkjgYyifk6voUwmUrA9Q+rncPiK3WDKuNct7Sekp9838G8aCbvhdX1WxstA9WPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
