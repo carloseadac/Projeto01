@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QrKoir0FwIFCyjNdRXFmE0zO1FdcOCCSzthP1beQu3FzBOgZou7Cel4niE6PxXudtsDrTxivACwiD0TJNJuQNw==",
+  "dgSpecHash": "o7QsR83i7xQqGTFYx+7WJfhounIDUhw37oeaYKgTINheebpnDlSTDjbSVvys4EoDcR1BCGJxcuEMzFNOaz+Qeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Projeto01\\console\\console.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\console\\console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
