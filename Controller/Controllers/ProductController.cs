@@ -3,6 +3,7 @@ using Model;
 using DTO;
 namespace Controller.Controllers;
 
+//
 
 [ApiController]
 [Route("product")]
@@ -10,10 +11,12 @@ public class ProductController : ControllerBase
 {
         [HttpGet]
         [Route("getall")]
-        public object allProduct(){
+        public IActionResult allProducts(){
                 var produtos = Model.Product.getProducts();
-                return produtos; 
+                var result = new ObjectResult(produtos);
 
+                Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                return result;
         }
 
         [HttpPost]

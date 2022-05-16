@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AS7QzlSIN5QBWKfmnuxsJWrGJc+87COyweULZ9qgAy3+Sq3nDnlYSw3tlZlyVlQmkCdY+OGBzIz+/7yK1neGUA==",
+  "dgSpecHash": "cW9KPGTt04ZjanIuoq0BmLCE9n81vZMxJJEh8q0Qe+zQBGda0L6i+Nc1oXVjz/aNtC6AD22pgf3rVj2Wu98yhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Controller\\Controller.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Controller\\Controller.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.4\\microsoft.aspnetcore.jsonpatch.6.0.4.nupkg.sha512",
