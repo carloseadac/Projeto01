@@ -81,6 +81,7 @@ namespace Model
         {
             var id = 0;
 
+            product ++;
             
 
             using(var context = new DaoContext())

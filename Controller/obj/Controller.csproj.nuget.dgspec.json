@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Controller\\Controller.csproj",
         "projectName": "Controller",
         "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Controller\\Controller.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Controller\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,11 +84,11 @@
         "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
         "projectName": "DAO",
         "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,11 +152,11 @@
         "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj",
         "projectName": "DTO",
         "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -216,11 +216,11 @@
         "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj",
         "projectName": "Enums",
         "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -276,11 +276,11 @@
         "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
         "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -330,11 +330,11 @@
         "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj",
         "projectName": "Model",
         "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

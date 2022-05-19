@@ -7,6 +7,7 @@ using Interfaces;
 using DAO;
 using DTO;
 using Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Model
@@ -17,6 +18,9 @@ namespace Model
         private String name;
         //private Double unit_price;
         private String bar_code;
+
+        private string image;
+        private string description;
 
 
         List<ProductDTO> productDTO = new List<ProductDTO>();
@@ -54,6 +58,23 @@ namespace Model
         {
             this.bar_code = bar_code;
         }
+        public string getImage()
+        {
+            return image;
+        }
+        public string getDescription()
+        {
+            return description;
+        }
+        public void setImage(string image)
+        {
+            this.image = image;
+        }
+        public void setDescription(string description)
+        {
+            this.description = description;
+        }
+        
         
 
         public static void update(ProductDTO productDTO)
@@ -83,6 +104,8 @@ namespace Model
             var productDTO = new ProductDTO();
             productDTO.name = this.name;
             productDTO.bar_code = this.bar_code;
+            productDTO.image = this.image;
+            productDTO.description = this.description;
             
             return productDTO;
         }
@@ -105,6 +128,8 @@ namespace Model
                 var product = new DAO.Product{
                     name = this.name,
                     bar_code = this.bar_code,
+                    image = this.image,
+                    description = this.description
                 };
 
                 context.products.Add(product);
@@ -121,6 +146,8 @@ namespace Model
 
             product.setBarCode(obj.bar_code);
             product.setName(obj.name);
+            product.setDescription(obj.description);
+            product.setImage(obj.image);
 
             return product;
         }
@@ -136,16 +163,25 @@ namespace Model
         }
         public static List<object> getProducts()
         {
+            List<object> produtos = new List<object>();
+
             using(var context = new DaoContext()){
-                var products = context.products;
 
-                List<object> produtos = new List<object>();
-                foreach(var product in products){
-                    produtos.Add(product);
+                var stocks = context.stocks.Include(s => s.product).ToList();
+                foreach(var stock in stocks)
+                {
+                    produtos.Add(new
+                    {
+                        id = stock.product.id,
+                        name = stock.product.name,
+                        bar_code = stock.product.bar_code,
+                        image = stock.product.image,
+                        description = stock.product.description,
+                        price = stock.unit_price
+                    });
                 }
-
-                return produtos;
             }
+            return produtos;
         }
 
         public static int findId(string bar_code){

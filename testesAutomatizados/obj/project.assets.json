@@ -7221,11 +7221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
       "projectName": "testesAutomatizados",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7242,11 +7242,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj"
+            "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj"
             },
-            "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj"
+            "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj"
             }
           }
         }

@@ -2204,7 +2204,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\disrct\\.nuget\\packages\\": {}
+    "C:\\Users\\liq1ct\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2212,11 +2212,11 @@
       "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
       "projectName": "DAO",
       "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
-      "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

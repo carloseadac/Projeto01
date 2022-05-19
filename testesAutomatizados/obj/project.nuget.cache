@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "itEP//O87KTpvYqs2qQmmJP7a9u42MITs1tADjTiUwY/1PxnVzBfCd6gUasbngQaL9dylZjavRLghB6cli3UVA==",
+  "dgSpecHash": "48cqxYbRKXXga511vktJ0eft3clMVKJldvCfFnI4eyKBAanP4STpdVB505y0fcSWL8pvLysfDaqYI+BwSJsv2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

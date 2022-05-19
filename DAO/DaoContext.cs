@@ -102,7 +102,8 @@ public class DaoContext : DbContext
             entity.HasKey(a => a.id);
             entity.Property(a=>a.name).IsRequired();
             entity.Property(a=>a.bar_code).IsRequired();
-            
+            entity.Property(a=>a.image).IsRequired();
+            entity.Property(a=>a.description).IsRequired();
         });
       
     }

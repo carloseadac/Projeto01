@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\disrct\\.nuget\\packages\\": {}
+    "C:\\Users\\liq1ct\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj",
       "projectName": "Interfaces",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj",
-      "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\obj\\",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj",
+      "packagesPath": "C:\\Users\\liq1ct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\liq1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
