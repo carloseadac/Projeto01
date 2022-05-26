@@ -1,9 +1,10 @@
+namespace Controller.Controllers;
 using Microsoft.AspNetCore.Mvc;
-using System;
+using Microsoft.AspNetCore.Authorization;
 using Model;
 using DTO;
 
-namespace Controller.Controllers;
+[Authorize]
 [ApiController]
 [Route("address")]
 public class AddressController : ControllerBase

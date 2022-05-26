@@ -307,3 +307,4 @@ C:\Users\disrct\Desktop\Marketei\Projeto01\Controller\obj\Debug\net6.0\refint\Co
 C:\Users\disrct\Desktop\Marketei\Projeto01\Controller\obj\Debug\net6.0\Controller.pdb
 C:\Users\disrct\Desktop\Marketei\Projeto01\Controller\obj\Debug\net6.0\Controller.genruntimeconfig.cache
 C:\Users\disrct\Desktop\Marketei\Projeto01\Controller\obj\Debug\net6.0\ref\Controller.dll
+C:\Users\disrct\Desktop\Projeto01\Controller\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
