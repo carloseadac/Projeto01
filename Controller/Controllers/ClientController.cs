@@ -61,17 +61,21 @@ public class ClientController : ControllerBase
     public IActionResult tokenGenerate([FromBody] ClientDTO login){
         if(login != null && login.login != null && login.passwd != null){
             var user = Model.Client.findLogin(login);
-            if(user != null){
+            Console.WriteLine(user);
+            if(user.Value.id != 0){
                 var claims = new[] {
                     new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                     new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
                     new Claim("UserId", user.Value.id.ToString()),
                     new Claim("UserName", user.Value.name),
+                    new Claim("Email", user.Value.email),
+                    new Claim("Email", user.Value.email),
+                    new Claim("Email", user.Value.email),
                     new Claim("Email", user.Value.email)
                 };
 
-                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt: Key"]));
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
                 var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
                 var token = new JwtSecurityToken(
                     _configuration["Jwt:Issuer"],
@@ -79,7 +83,12 @@ public class ClientController : ControllerBase
                     claims,
                     expires: DateTime.UtcNow.AddMinutes(10),
                     signingCredentials: signIn);
-                return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+                var clientResponse = new{
+                    id = user.Value.id,
+                    token = new JwtSecurityTokenHandler().WriteToken(token),
+                    name =  user.Value.name
+                };
+                return Ok(clientResponse);
             }
             else
             {

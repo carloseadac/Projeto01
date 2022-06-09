@@ -509,7 +509,6 @@ C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\EntityFra
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
-C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
@@ -555,7 +554,6 @@ C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\System.Ru
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -852,3 +850,6 @@ C:\Users\disrct\Desktop\Marketei\Projeto01\testesAutomatizados\obj\Debug\net6.0\
 C:\Users\disrct\Desktop\Marketei\Projeto01\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.pdb
 C:\Users\disrct\Desktop\Marketei\Projeto01\testesAutomatizados\obj\Debug\net6.0\testesAutomatizados.genruntimeconfig.cache
 C:\Users\disrct\Desktop\Marketei\Projeto01\testesAutomatizados\obj\Debug\net6.0\ref\testesAutomatizados.dll
+C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\testhost.exe
+C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\bin\Debug\net6.0\testcentric.engine.metadata.dll

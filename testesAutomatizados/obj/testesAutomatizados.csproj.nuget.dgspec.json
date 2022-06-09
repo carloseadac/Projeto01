@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {}
+    "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
               }
             }
           }
@@ -68,18 +68,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
               }
             }
           }
@@ -132,18 +132,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj",
         "projectName": "Enums",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -192,18 +192,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,18 +246,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -274,17 +274,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DAO\\DAO.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Enums\\Enums.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Interfaces\\Interfaces.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -323,18 +323,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {
+    "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
         "projectName": "testesAutomatizados",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
         "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\testesAutomatizados\\obj\\",
+        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -351,11 +351,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\DTO\\DTO.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Marketei\\Projeto01\\Model\\Model.csproj"
+              "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj"
               }
             }
           }
@@ -372,15 +372,15 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.5.0, )"
+              "version": "[17.2.0, )"
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.12.0, )"
+              "version": "[3.13.3, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.16.1, )"
+              "version": "[4.2.1, )"
             }
           },
           "imports": [
@@ -398,7 +398,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

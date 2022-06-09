@@ -5,6 +5,7 @@ using DTO;
 using System.Collections.Generic;
 
 
+
 namespace Model
 {
     public class Address : IValidateDataObject, IDataController<AddressDTO, Address>
