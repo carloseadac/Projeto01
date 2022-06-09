@@ -99,5 +99,6 @@ public class ClientController : ControllerBase
         {
             return BadRequest("Empty credentials");
         }
+
     }
 }
