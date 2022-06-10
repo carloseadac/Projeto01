@@ -44,6 +44,13 @@ public class OwnerController : ControllerBase
         var owner = Model.Owner.find(document);
         return owner;
     }
+
+    [HttpGet]
+    [Route("getID/{id}")]
+    public object getInformationsID(int id){
+        var owner = Model.Owner.findID(id);
+        return owner;
+    }
     [HttpPost]
     [Route("api")]
 

@@ -45,6 +45,12 @@ public class ClientController : ControllerBase
         var client = Model.Client.find(document);
         return client;
     }
+    [HttpGet]
+    [Route("getID/{id}")]
+    public object getInformationsID(int id){
+        var client = Model.Client.findID(id);
+        return client;
+    }
 
     [HttpPost]
     [Route("get/login")]

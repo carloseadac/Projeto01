@@ -173,5 +173,20 @@ namespace Model
             };
         }
     }
+    public static object findID(int id){
+        using (var context = new DaoContext()){
+            var owner = context.owners.Include(i => i.address).FirstOrDefault(d => d.id == id);
+            return new{
+                name = owner.name,
+                date_of_birth = owner.date_of_birth,
+                document = owner.document,
+                email = owner.email,
+                login = owner.login,
+                passwd = owner.passwd,
+                phone = owner.phone,
+                address = owner.address
+            };
+        }
+    }
     }
 }
