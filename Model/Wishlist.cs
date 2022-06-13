@@ -1,160 +1,161 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Model;
 using Interfaces;
 using DAO;
+using Microsoft.EntityFrameworkCore;
 using DTO;
-
-namespace Model
+public class WishList : IValidateDataObject, IDataController<WishListDTO, WishList>
 {
-    public class WishList : IValidateDataObject, IDataController<WishListDTO, WishList>
+    private List<Stocks> stocks = new List<Stocks>();
+    private Client client;
+    public List<WishListDTO> wishListDTO = new List<WishListDTO>();
+
+    public WishList(Client client)
     {
-        private Client client;
-        private List<Product> products = new List<Product>();
-        List<WishListDTO> wishListDTO = new List<WishListDTO>();
-        //construtor
-        public WishList(Client client)
-        {
-             this.client = client;
-        }
-        public WishList(){
-        }
+        this.client = client;
+    }
 
-        //getters
-        public Client getClient()
-        {
-            return client;
-        }
-        public List<Product> getProducts()
-        {
-            return products;
-        }
-        public void setProducts(List<Product> products)
-        {
-            this.products = products;
-        }
 
-        //set
-        public void addProductToWishList(Product product)
-        {
-            if (!getProducts().Contains(product))
+    public WishList()
+    {
+    }
+
+    public static List<WishListResponseDTO> GetWishList(int IdClient){
+
+        using(var context = new DaoContext()){
+            var wishLists = context.wishLists.Include(p=>p.client).Include(p=>p.stocks)
+            .Include(p=>p.stocks.product).Include(p=> p.stocks.store).Where(i=> i.client.id ==IdClient);
+        
+            var responseproducts = new List<WishListResponseDTO>();
+            foreach(var item in wishLists)
             {
-                this.products.Add(product);
-            }
-        }
-        public void setClient(Client client)
-        {
-            this.client = client;
-        }
-
-        //interface
-        public bool validateObject()//WishList obj)
-        {
-            //if(obj.products == null) return false;
-            //if(obj.client == null) return false; 
-            return true;
-        }
-        public static WishList convertDTOToModel(WishList obj){
-            return new WishList(obj.client);
-        }
-
-
-        public int save(int client, int prod)
-        {
-            var id = 0;
-
-            using(var context = new DaoContext())
-            {
-                var clientDAO = context.clients.Where(c => c.id == client).Single();
-                var productDAO = context.products.Where(c => c.id == prod).Single();
+                var newproduct = new WishListResponseDTO();
+                newproduct.bar_code = item.stocks.product.bar_code;
+                newproduct.IdStocks = item.stocks.id;
+                newproduct.idWishlist = item.id;
+                newproduct.description = item.stocks.product.description;
+                newproduct.image = item.stocks.product.image;
+                newproduct.Unit_price = item.stocks.unit_price;
+                newproduct.CNPJ = item.stocks.store.CNPJ;
+                newproduct.Quantity = item.stocks.quantity;
+                newproduct.name = item.stocks.product.name;
+                responseproducts.Add(newproduct);
                 
-                var wl = new DAO.WishList{
-                    client = clientDAO,
-                    product = productDAO
-                };
-
-                context.wishLists.Add(wl);
-                context.Entry(wl.client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
-                context.Entry(wl.product).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
-                context.SaveChanges();
-                id = wl.id;
             }
-            return id;
-                
-                
-        }
+            return responseproducts;
+        }   
+    }
+    public static WishList convertDTOToModel(WishListDTO obj)
+    {
 
-        public void update(WishListDTO obj)
+        var wishList = new WishList(Client.convertDTOToModel(obj.client));
+
+        foreach (var stocks in obj.stocks)
         {
-
+            wishList.addProductToWishList(Stocks.convertDTOToModel(stocks));
         }
 
-        public static int findId(string document){
-            using(var context = new DaoContext()){
-                var client = context.clients.FirstOrDefault(s => s.document == document);
-                return client.id;
-            }
-        }
+        return wishList;
+    }
 
-        public List<WishListDTO> getAll()
-        {        
-            return this.wishListDTO;      
-        }
-        public WishListDTO convertModelToDTO()
+    public void delete()
+    {
+        
+    }
+
+    public static string deleteProduct(int id,int ClientId){
+        using (var context = new DaoContext())
         {
-            var wishListDTO = new WishListDTO();
-            wishListDTO.client = this.client.convertModelToDTO();
-
-            foreach(var prod in this.products){
-                wishListDTO.products.Add(prod.convertModelToDTO());
-            }
-            return wishListDTO;
-        }
-
-    
-        public static WishList convertDTOToModel(WishListDTO obj)
-        {
-
-            var wishList = new WishList();
-
-            wishList.setClient(Client.convertDTOToModel(obj.client));
-
-            List<Product> products = new List<Product>();
-            foreach (ProductDTO prod in obj.products)
-            {
-                products.Add(Product.convertDTOToModel(prod));
-            }
-
-            wishList.setProducts(products);
-
-            return wishList;
-        }
-        public void delete(){
-            using (var context = new DaoContext()){
-
-                foreach(var prod in this.products){
-                    var client = context.wishLists.FirstOrDefault(i => i.client.document == this.client.getDocument() && i.product.bar_code == prod.getBarCode());
-                    context.wishLists.Remove(client);
-                    context.SaveChanges();
-                    } 
-            }
-        }
-
-        public static string removeWishList(int  id){
-            using(var context = new DaoContext())
-            {
-                var wishList = context.wishLists.FirstOrDefault(w => w.id == id);
-                context.Remove(wishList);  
-                context.SaveChanges();
-                return " foi removido!";
-            }
-        }
-
-        public WishListDTO findById(int id)
-        {
-            throw new NotImplementedException();
+            var wishList = context.wishLists
+            .FirstOrDefault(w => w.id == id && w.client.id == ClientId);
+            context.wishLists.Remove(wishList);
+            context.SaveChanges();
+            return "sucess";
         }
     }
+
+
+    public int save(int sctock, int client)
+    {
+        var id = 0;
+
+        using (var context = new DaoContext())
+        {
+
+            var clientDAO = context.clients.FirstOrDefault(c => c.id == client);
+            var stocksDAO = context.stocks.FirstOrDefault(x=> x.id == sctock);
+
+            var wishList = new DAO.WishList
+            {
+                client = clientDAO,
+                stocks = stocksDAO
+                
+            };
+
+            context.wishLists.Add(wishList);
+            context.Entry(wishList.client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+            context.Entry(wishList.stocks).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+
+            context.SaveChanges();
+
+            id = wishList.id;
+
+        }
+        return id;
+    }
+
+    
+
+
+    public void update(WishListDTO obj)
+    {
+
+    }
+
+    public WishListDTO findById(int id)
+    {
+
+        return new WishListDTO();
+    }
+
+    public List<WishListDTO> getAll()
+    {
+        return this.wishListDTO;
+    }
+
+
+    public WishListDTO convertModelToDTO()
+    {
+        var wishListDTO = new WishListDTO();
+
+        wishListDTO.client = this.client.convertModelToDTO();
+
+        foreach (var stock in this.stocks)
+        {
+            wishListDTO.stocks.Add(stock.convertModelToDTO());
+        }
+
+        return wishListDTO;
+    }
+
+    public Boolean validateObject()
+    {
+
+        if (this.getClient() == null) return false;
+        if (this.GetStocks() == null) return false;
+        return true;
+    }
+
+
+    public void setClient(Client client) { this.client = client; }
+    public Client getClient() { return this.client; }
+
+    public List<Stocks> GetStocks() { return stocks; }
+    public void addProductToWishList(Stocks stock)
+    {
+        if (!GetStocks().Contains(stock))
+        {
+            this.stocks.Add(stock);
+        }
+    }
+
 }

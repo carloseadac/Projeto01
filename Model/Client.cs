@@ -140,9 +140,8 @@ namespace Model
             }
         }
         public static (int id, string name, string email)? findLogin(ClientDTO obj){
-            Client.convertDTOToModel(obj);
             using (var context = new DaoContext()){
-                var client = context.clients.Include(i => i.address).FirstOrDefault(d => d.login == obj.login && d.passwd == obj.passwd);
+                var client = context.clients.Single(d => d.login == obj.login && d.passwd == obj.passwd);
 
                 if(client != null){
                     return (client.id, client.name, client.email);

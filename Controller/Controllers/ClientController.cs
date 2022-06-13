@@ -75,9 +75,6 @@ public class ClientController : ControllerBase
                     new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
                     new Claim("UserId", user.Value.id.ToString()),
                     new Claim("UserName", user.Value.name),
-                    new Claim("Email", user.Value.email),
-                    new Claim("Email", user.Value.email),
-                    new Claim("Email", user.Value.email),
                     new Claim("Email", user.Value.email)
                 };
 
