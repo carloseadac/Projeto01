@@ -63,12 +63,10 @@ namespace Model
         }
 
 
-        public bool validateObject()//Store obj)
+        public bool validateObject(Store obj)
         {
-            //if(obj.cnpj == null) return false;
-            //if(obj.owner == null) return false;
-            //if(obj.purchases == null) return false;
-            //if(obj.name == null) return false;
+            if(this.getCNPJ() == null) return false;
+            if(this.getName() == null) return false;
             return true;
         }
 
@@ -168,6 +166,24 @@ namespace Model
             }
             return id;
         }
+        public static int findId(string CNPJ){
+            using(var context = new DaoContext()){
+                var store = context.stores.FirstOrDefault(s => s.CNPJ == CNPJ);
+                return store.id;
+            }
+        }
 
+        public bool validateObject()
+        {
+            if(this.getCNPJ() == null)
+            {
+                return false;
+            }
+            if(this.getName() == null)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

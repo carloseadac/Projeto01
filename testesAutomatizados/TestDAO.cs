@@ -478,6 +478,9 @@ namespace testesAutomatizados
 
             productDTO1.bar_code = "12521142521252325";
 
+            productDTO1.image = "https://img.irroba.com.br/filters:fill(fff):quality(95)/selariap/catalog/produtos/chapeus-2/chapeu-pralana-bangora-terreon-a.jpg";
+            productDTO1.description = "aaaaaaa";
+
             produtos.Add(productDTO1);
 
              var productDTO2 = new ProductDTO();
@@ -485,6 +488,8 @@ namespace testesAutomatizados
             productDTO2.name = "produto 2";
 
             productDTO2.bar_code = "7854687654865";
+            productDTO2.image = "https://img.irroba.com.br/filters:fill(fff):quality(95)/selariap/catalog/produtos/chapeus-2/chapeu-pralana-bangora-terreon-a.jpg";
+            productDTO2.description = "aaaaaaa";
 
             produtos.Add(productDTO2);
 
@@ -494,6 +499,8 @@ namespace testesAutomatizados
             productDTO3.name = "produto 3";
 
             productDTO3.bar_code = "4524112588543164";
+            productDTO3.image = "https://img.irroba.com.br/filters:fill(fff):quality(95)/selariap/catalog/produtos/chapeus-2/chapeu-pralana-bangora-terreon-a.jpg";
+            productDTO3.description = "aaaaaaa";
 
             produtos.Add(productDTO3);
 
@@ -503,6 +510,8 @@ namespace testesAutomatizados
             productDTO4.name = "produto 4";
 
             productDTO4.bar_code = "632154584531685";
+            productDTO4.image = "https://img.irroba.com.br/filters:fill(fff):quality(95)/selariap/catalog/produtos/chapeus-2/chapeu-pralana-bangora-terreon-a.jpg";
+            productDTO4.description = "aaaaaaa";
 
             produtos.Add(productDTO4);
 
@@ -512,6 +521,8 @@ namespace testesAutomatizados
             productDTO5.name = "produto 5";
 
             productDTO5.bar_code = "421324862132465";
+            productDTO5.image = "https://img.irroba.com.br/filters:fill(fff):quality(95)/selariap/catalog/produtos/chapeus-2/chapeu-pralana-bangora-terreon-a.jpg";
+            productDTO5.description = "aaaaaaa";
 
             produtos.Add(productDTO5);
 

@@ -9,22 +9,28 @@ namespace Controller.Controllers;
 public class WishListController : ControllerBase{
         [HttpPost]
         [Route("register")]
-        // public object addProductToWishList([FromBody]WishListDTO wishList){
-        //         var wishListModel = model.WishList.convertDTOToModel(wishList);
-        //         var id = 0;
-        //         foreach(var product in wishList.products){
-        //                 var idProduto = model.Product.find(product);
-        //                 id = wishListModel.save(wishList.client.document, idProduto);
-        //         }
-        //         return new {
-        //                 id = id,
-        //                 client = wishList.client.document,
-        //                 produto = wishList.products
-        //         };
-        // }
+        public object addProductToWishList([FromBody]WishListDTO wishList){
+                var wishListModel = Model.WishList.convertDTOToModel(wishList);
+                var clientId = Model.WishList.findId(wishList.client.document);
+                var id = 0;
+                foreach(var product in wishList.products){
+                        var idProduto = Model.Product.find(product);
+                        id = wishListModel.save(clientId, idProduto);
+                }
+                return new {
+                        id = id,
+                        client = wishList.client.document,
+                        produto = wishList.products
+                };
+        }
 
         [HttpDelete]
-        public void removeProductToWishList(Object obj){
-
+        [Route("delete")]
+        public object removeProductToWishList([FromBody]WishListDTO wishListDTO){
+                Model.WishList.convertDTOToModel(wishListDTO).delete();
+                return new {
+                        status = "ok",
+                        mensagem = "excluido"
+                };
         }
 }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{AAA4BB01-C0A7-400A-9276-560BCDF04E81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testesAutomatizados", "testesAutomatizados\testesAutomatizados.csproj", "{509CEA16-BDB0-4810-9ACB-B686BCE76B6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{AAA4BB01-C0A7-400A-9276-560BCDF04E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA4BB01-C0A7-400A-9276-560BCDF04E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA4BB01-C0A7-400A-9276-560BCDF04E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509CEA16-BDB0-4810-9ACB-B686BCE76B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509CEA16-BDB0-4810-9ACB-B686BCE76B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509CEA16-BDB0-4810-9ACB-B686BCE76B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509CEA16-BDB0-4810-9ACB-B686BCE76B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

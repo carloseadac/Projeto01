@@ -16,7 +16,7 @@ public class DaoContext : DbContext
     public DbSet<WishList> wishLists { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=CTPC3627;Initial Catalog=db_marketplace_teste;Integrated Security= True;");
+        optionsBuilder.UseSqlServer("Data Source=LAPTOP-VJKR7RB7;Initial Catalog=db_marketplace_teste;Integrated Security= True;");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -43,7 +43,7 @@ public class DaoContext : DbContext
             entity.Property(a=> a.phone).IsRequired();
             entity.Property(a=> a.login).IsRequired();
             entity.Property(a=> a.passwd).IsRequired();
-
+            entity.Property(a=> a.document).IsRequired();
 
             entity.HasOne(a=> a.address);
             
@@ -58,7 +58,7 @@ public class DaoContext : DbContext
             entity.Property(a=> a.login).IsRequired();
             entity.Property(a=> a.passwd).IsRequired();
             entity.Property(a=> a.date_of_birth).IsRequired();
-
+            entity.Property(a=> a.document).IsRequired();
 
             entity.HasOne(a=> a.address);
            
@@ -102,7 +102,8 @@ public class DaoContext : DbContext
             entity.HasKey(a => a.id);
             entity.Property(a=>a.name).IsRequired();
             entity.Property(a=>a.bar_code).IsRequired();
-            
+            entity.Property(a=>a.image).IsRequired();
+            entity.Property(a=>a.description).IsRequired();
         });
       
     }

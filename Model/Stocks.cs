@@ -13,7 +13,7 @@ namespace Model
     public class Stocks : IValidateDataObject, IDataController<StocksDTO, Stocks>
     {
         //declarando variáveis
-        private Double quantity;
+        private int quantity;
         private Product product;
         private Store store;
         private double unit_price;
@@ -23,7 +23,7 @@ namespace Model
         public Stocks() { }
 
         //getters e setters
-        public double getUnitPrice()
+        public Double getUnitPrice()
         {
             return unit_price;
         }
@@ -31,11 +31,11 @@ namespace Model
         {
             this.unit_price = unit_price;
         }
-        public Double getQuantity()
+        public int getQuantity()
         {
             return quantity;
         }
-        public void setQuantity(double quantity)
+        public void setQuantity(int quantity)
         {
             this.quantity = quantity;
         }
@@ -56,22 +56,32 @@ namespace Model
             this.store = store;
         }
 
-        public bool validateObject()//Stocks obj)
+        public bool validateObject()
         {
-            //if(obj.quantity == 0) return false;
-            //if(obj.product == null) return false; 
-            //if(obj.store == null) return false;
+            if(this.getQuantity == null) return false;
+            if(this.getProduct == null) return false; 
+            if(this.getStore == null) return false;
             return true;
         }
 
-         public void delete(StocksDTO obj){
+        public void delete(StocksDTO obj){
 
         }
 
+        public static string removeStocks(int id){
+            using(var context = new DaoContext())
+            {
+                var stocks = context.stocks.FirstOrDefault(e=>e.id == id);
+                context.Remove(stocks);
+                context.SaveChanges();
+                return stocks.id + " foi removido!";
+            }
+        }
         public int save(int store, int product, int quantity, double unit_price)
         {
             var id = 0;
 
+            product ++;
             
 
             using(var context = new DaoContext())
@@ -94,8 +104,24 @@ namespace Model
             return id;
         }
 
-        public void update(StocksDTO obj){
+        public static void update(StocksDTO stocksDTO){     
+            using (var context = new DaoContext()){
+                
+                var store = context.stores.FirstOrDefault(i => i.CNPJ == stocksDTO.StoreDTO.CNPJ);
+                var product = context.products.FirstOrDefault(i => i.bar_code == stocksDTO.ProductDTO.bar_code);
+                var stocks = context.stocks.FirstOrDefault(a => a.product.id == product.id && a.store.id == store.id);
 
+
+                if(stocks != null){
+                    if(stocksDTO.quantity >= 0){
+                        stocks.quantity = stocksDTO.quantity;
+                    }
+                    if(stocksDTO.unit_price >= 0){
+                        stocks.unit_price = stocksDTO.unit_price;
+                    }
+                }
+                context.SaveChanges();
+            }
         }
 
         public StocksDTO findById(int id){

@@ -146,6 +146,17 @@ namespace Model
 
             return owner;
         }
+        public static (int id, string name, string email)? findLogin(OwnerDTO obj){
+            Owner.convertDTOToModel(obj);
+            using (var context = new DaoContext()){
+                var owner = context.owners.Include(i => i.address).FirstOrDefault(d => d.login == obj.login && d.passwd == obj.passwd);
+
+                if(owner != null){
+                    return (owner.id, owner.name, owner.email);
+                }
+                else return null;
+            }
+        }
 
         public static object find(String document){
         using (var context = new DaoContext()){

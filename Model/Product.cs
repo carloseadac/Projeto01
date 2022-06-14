@@ -7,6 +7,7 @@ using Interfaces;
 using DAO;
 using DTO;
 using Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Model
@@ -17,6 +18,9 @@ namespace Model
         private String name;
         //private Double unit_price;
         private String bar_code;
+
+        private string image;
+        private string description;
 
 
         List<ProductDTO> productDTO = new List<ProductDTO>();
@@ -54,13 +58,37 @@ namespace Model
         {
             this.bar_code = bar_code;
         }
-        
-        public void delete(ProductDTO obj){
-
+        public string getImage()
+        {
+            return image;
         }
+        public string getDescription()
+        {
+            return description;
+        }
+        public void setImage(string image)
+        {
+            this.image = image;
+        }
+        public void setDescription(string description)
+        {
+            this.description = description;
+        }
+        
+        
 
-        public void update(ProductDTO obj){
+        public static void update(ProductDTO productDTO)
+        {
+            using (var context = new DaoContext()){
+                var product = context.products.FirstOrDefault(a => a.bar_code == productDTO.bar_code);
 
+                if(product != null){
+                    if(productDTO.name != null){
+                        product.name = productDTO.name;
+                    }
+                }
+                context.SaveChanges();
+            }
         }
 
         public ProductDTO findById(int id){
@@ -76,17 +104,18 @@ namespace Model
             var productDTO = new ProductDTO();
             productDTO.name = this.name;
             productDTO.bar_code = this.bar_code;
+            productDTO.image = this.image;
+            productDTO.description = this.description;
             
             return productDTO;
         }
         
         
 
-        public bool validateObject()//Product obj)
+        public bool validateObject()
         {
-            //if(obj.name == null) return false;          
-            //if(obj.unit_price == 0.0) return false;            
-            //if(obj.bar_code == null) return false;
+            if(this.getName == null) return false;                      
+            if(this.getBarCode == null) return false;
             return true;
         }
 
@@ -99,6 +128,8 @@ namespace Model
                 var product = new DAO.Product{
                     name = this.name,
                     bar_code = this.bar_code,
+                    image = this.image,
+                    description = this.description
                 };
 
                 context.products.Add(product);
@@ -115,11 +146,59 @@ namespace Model
 
             product.setBarCode(obj.bar_code);
             product.setName(obj.name);
+            product.setDescription(obj.description);
+            product.setImage(obj.image);
 
             return product;
         }
 
+        public static void delete(ProductDTO productDTO)
+        {
+            using (var context = new DaoContext()){
+                var produto = context.products.FirstOrDefault(i => i.bar_code == productDTO.bar_code);
+
+                context.products.Remove(produto);
+                context.SaveChanges();
+            }
+        }
+        public static List<object> getProducts()
+        {
+            List<object> produtos = new List<object>();
+
+            using(var context = new DaoContext()){
+
+                var stocks = context.stocks.Include(s => s.product).ToList();
+                foreach(var stock in stocks)
+                {
+                    produtos.Add(new
+                    {
+                        id = stock.product.id,
+                        name = stock.product.name,
+                        bar_code = stock.product.bar_code,
+                        image = stock.product.image,
+                        description = stock.product.description,
+                        price = stock.unit_price
+                    });
+                }
+            }
+            return produtos;
+        }
+
+        public static int findId(string bar_code){
+            using(var context = new DaoContext()){
+                var product = context.products.FirstOrDefault(s => s.bar_code == bar_code);
+                return product.id;
+            }
+        }
+        public static int find(ProductDTO productDTO){
+            using (var context = new DaoContext()){
+                var produto = context.products.FirstOrDefault(s => s.bar_code == productDTO.bar_code);
+
+                return produto.id;
+            }
+        }
         
+
     }
         
 }

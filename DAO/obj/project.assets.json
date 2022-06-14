@@ -2204,19 +2204,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\disrct\\.nuget\\packages\\": {}
+    "C:\\Users\\samsung\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\DAO\\DAO.csproj",
+      "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\DAO\\DAO.csproj",
-      "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\DAO\\obj\\",
+      "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj",
+      "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2230,8 +2230,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\Enums\\Enums.csproj": {
-              "projectPath": "S:\\COM\\Human_Resources\\01.Engineering_Tech_School\\02.Internal\\10 - Aprendizes\\5 - Desenvolvimento de Sistemas\\5 - Desenvolvimento de Sistemas\\1 - Alunos\\Carlos Costa\\2 - Marketplace\\Enums\\Enums.csproj"
+            "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj": {
+              "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj"
             }
           }
         }
