@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = testesAutomatizados
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\samsung\OneDrive\Documentos\Projeto01\testesAutomatizados\
+=======
+build_property.ProjectDir = C:\Users\disrct\Desktop\Projeto01\testesAutomatizados\
+>>>>>>> f32b7ae7bd50a237bb1b9763cd8fe3344f3003d0

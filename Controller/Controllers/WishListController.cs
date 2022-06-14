@@ -1,36 +1,51 @@
 using Microsoft.AspNetCore.Mvc;
-using Model;
 using DTO;
+using DAO;
+using Microsoft.AspNetCore.Authorization;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.EntityFrameworkCore;
+
 namespace Controller.Controllers;
 
-
 [ApiController]
-[Route("wishlist")]
-public class WishListController : ControllerBase{
-        [HttpPost]
-        [Route("register")]
-        public object addProductToWishList([FromBody]WishListDTO wishList){
-                var wishListModel = Model.WishList.convertDTOToModel(wishList);
-                var clientId = Model.WishList.findId(wishList.client.document);
-                var id = 0;
-                foreach(var product in wishList.products){
-                        var idProduto = Model.Product.find(product);
-                        id = wishListModel.save(clientId, idProduto);
-                }
-                return new {
-                        id = id,
-                        client = wishList.client.document,
-                        produto = wishList.products
-                };
-        }
+[Route("[controller]")]
+public class WishListController : ControllerBase
+{
 
-        [HttpDelete]
-        [Route("delete")]
-        public object removeProductToWishList([FromBody]WishListDTO wishListDTO){
-                Model.WishList.convertDTOToModel(wishListDTO).delete();
-                return new {
-                        status = "ok",
-                        mensagem = "excluido"
-                };
-        }
+
+    [HttpPost]
+    [Route("register")]
+    public object addProductToWishList([FromBody]StocksRequestDTO stocksDTO){
+        
+        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var wishlist = new Model.WishList();
+        wishlist.save(stocksDTO.id, ClientId);
+        return new
+        {
+                response = "salvou no banco"
+        };
+    }   
+
+    [Authorize]
+    [HttpGet]
+    [Route("getwishlist")]
+    public IActionResult GetWishList(){
+       var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+       var wishilits = Model.WishList.GetWishList(ClientId);
+
+        var result = new ObjectResult(wishilits);
+
+        return result;
+    }
+
+    [Authorize]
+    [HttpDelete]
+    [Route("deletewishlist/{idwishlist}")]
+    public string RemoveWishList(int idwishlist){
+        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var response = Model.WishList.deleteProduct(idwishlist,ClientId);
+        return response;
+    }
+
+
 }

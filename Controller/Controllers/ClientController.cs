@@ -45,6 +45,12 @@ public class ClientController : ControllerBase
         var client = Model.Client.find(document);
         return client;
     }
+    [HttpGet]
+    [Route("getID/{id}")]
+    public object getInformationsID(int id){
+        var client = Model.Client.findID(id);
+        return client;
+    }
 
     [HttpPost]
     [Route("get/login")]
@@ -69,9 +75,6 @@ public class ClientController : ControllerBase
                     new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
                     new Claim("UserId", user.Value.id.ToString()),
                     new Claim("UserName", user.Value.name),
-                    new Claim("Email", user.Value.email),
-                    new Claim("Email", user.Value.email),
-                    new Claim("Email", user.Value.email),
                     new Claim("Email", user.Value.email)
                 };
 

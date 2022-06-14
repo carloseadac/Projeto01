@@ -1,12 +1,7 @@
 using System;
-
-namespace DTO
+namespace DTO;
+public class WishListDTO
 {
-    public class WishListDTO
-    {
-        public ClientDTO client;
-        public List<ProductDTO> products = new List<ProductDTO>();
-
-    }
-    
+    public ClientDTO client;
+    public List<StocksDTO> stocks = new List<StocksDTO>();
 }
