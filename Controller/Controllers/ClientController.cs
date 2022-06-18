@@ -55,7 +55,7 @@ public class ClientController : ControllerBase
     [HttpPost]
     [Route("get/login")]
     public IActionResult getInformations([FromBody] ClientDTO obj){
-        Console.WriteLine("cheguei aqui");
+    
         var client = Model.Client.findLogin(obj);
         var result = new ObjectResult(client);
         Response.Headers.Add("Access-Control-Allow-Origin", "*");

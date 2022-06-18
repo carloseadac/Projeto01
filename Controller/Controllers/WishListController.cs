@@ -15,15 +15,15 @@ public class WishListController : ControllerBase
 
     [HttpPost]
     [Route("register")]
-    public object addProductToWishList([FromBody]StocksRequestDTO stocksDTO){
+    public IActionResult addProductToWishList([FromBody]StocksRequestDTO stocksDTO){
         
         var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
         var wishlist = new Model.WishList();
-        wishlist.save(stocksDTO.id, ClientId);
-        return new
-        {
-                response = "salvou no banco"
-        };
+        Console.WriteLine(stocksDTO.id);
+        var ai = wishlist.save(stocksDTO.id, ClientId);
+
+        var result = new ObjectResult(ai);
+        return result;
     }   
 
     [Authorize]
@@ -46,6 +46,8 @@ public class WishListController : ControllerBase
         var response = Model.WishList.deleteProduct(idwishlist,ClientId);
         return response;
     }
+
+
 
 
 }
