@@ -27,6 +27,8 @@ public class ProductController : ControllerBase
                 return new{
                         name = productDTO.name,
                         bar_code = productDTO.bar_code,
+                        description = productDTO.description,
+                        image = productDTO.image,
                         id = id
                 };
         }
