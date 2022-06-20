@@ -177,7 +177,8 @@ namespace Model
                         bar_code = stock.product.bar_code,
                         image = stock.product.image,
                         description = stock.product.description,
-                        price = stock.unit_price
+                        price = stock.unit_price,
+                        idStocks = stock.id
                     });
                 }
             }

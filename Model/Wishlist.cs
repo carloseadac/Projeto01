@@ -38,6 +38,7 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
                 newproduct.CNPJ = item.stocks.store.CNPJ;
                 newproduct.Quantity = item.stocks.quantity;
                 newproduct.name = item.stocks.product.name;
+                newproduct.idProduct = item.stocks.product.id;
                 responseproducts.Add(newproduct);
                 
             }
