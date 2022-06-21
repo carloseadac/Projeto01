@@ -185,5 +185,15 @@ namespace Model
             }
             return true;
         }
+        public static object getStorebyIDOwner(int idOwner){
+        using(var context = new DaoContext()){
+            var storeDAO = context.stores.Include(s => s.owner).Include(s => s.owner.address).FirstOrDefault(p => p.owner.id == idOwner);
+            Console.WriteLine(storeDAO.CNPJ);
+            return new {
+                name = storeDAO.name,
+                cnpj = storeDAO.CNPJ,
+            };
+        }
+    }
     }
 }

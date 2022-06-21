@@ -34,4 +34,11 @@ public class StoreController : ControllerBase {
         var store = Model.Store.getStoreInfo(cnpj);
         return store;
     }
+    [HttpGet]
+    [Route("getID/{id}")]
+    public Object getStorebyIDOwner(int id){
+        var store = Model.Store.getStorebyIDOwner(id);
+        Console.WriteLine(id);
+        return store;
+    }
 }
