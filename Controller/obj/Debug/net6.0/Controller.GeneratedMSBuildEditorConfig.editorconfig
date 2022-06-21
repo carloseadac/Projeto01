@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Controller
 build_property.RootNamespace = Controller
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\disrct\Desktop\Projeto01\Controller\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = c:\Users\disrct\Desktop\Projeto01\Controller
+=======
+build_property.ProjectDir = C:\Users\samsung\OneDrive\Documentos\Projeto01\Controller\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\samsung\OneDrive\Documentos\Projeto01\Controller
+>>>>>>> 7d1b88b42c44e8625fa3d9640c94c2ad4bf0dc5e
 build_property._RazorSourceGeneratorDebug = 

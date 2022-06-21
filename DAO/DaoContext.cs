@@ -16,8 +16,11 @@ public class DaoContext : DbContext
     public DbSet<WishList> wishLists { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=CTPC3616;Initial Catalog=db_marketplace_teste2;Integrated Security= True;");
+
+        optionsBuilder.UseSqlServer("Data Source=LAPTOP-VJKR7RB7;Initial Catalog=db_marketplace_teste;Integrated Security= True;");
+
     }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
