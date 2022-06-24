@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using Model;
 using DTO;
+using DAO;
+using Microsoft.AspNetCore.Authorization;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.EntityFrameworkCore;
 namespace Controller.Controllers;
-
 
 [ApiController]
 [Route("store")]
@@ -17,15 +19,18 @@ public class StoreController : ControllerBase {
 
     [HttpPost]
     [Route("register")]
-    public Object regiterStore([FromBody] StoreDTO storeDTO){
-        var store = Store.convertDTOToModel(storeDTO);
-        var id = store.save(Model.Store.getOwnerId(store.getOwner()));
-        return new{
+    public IActionResult registerStore([FromBody] StoreDTO storeDTO){
+        var OwnerId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var store = Model.Store.convertDTOToModel(storeDTO);
+        var id = store.save(OwnerId);
+        Console.WriteLine(id);
+        return new ObjectResult( new{
             name = storeDTO.name,
             cnpj = storeDTO.CNPJ,
             owner = storeDTO.OwnerDTO,
             id = id
-        };
+        });
+
     }
 
     [HttpGet]

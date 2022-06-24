@@ -198,6 +198,14 @@ namespace Model
                 return produto.id;
             }
         }
+        public int getID()
+        {
+            using (var context = new DaoContext())
+            {
+                var product = context.products.FirstOrDefault(p => p.bar_code == this.bar_code);
+                return product.id;
+            }
+        }
         
 
     }

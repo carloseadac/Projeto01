@@ -81,9 +81,6 @@ namespace Model
         {
             var id = 0;
 
-            product ++;
-            
-
             using(var context = new DaoContext())
             {
                 var storeDTO = context.stores.Where(c => c.id == store).Single();
@@ -107,8 +104,8 @@ namespace Model
         public static void update(StocksDTO stocksDTO){     
             using (var context = new DaoContext()){
                 
-                var store = context.stores.FirstOrDefault(i => i.CNPJ == stocksDTO.StoreDTO.CNPJ);
-                var product = context.products.FirstOrDefault(i => i.bar_code == stocksDTO.ProductDTO.bar_code);
+                var store = context.stores.FirstOrDefault(i => i.CNPJ == stocksDTO.store.CNPJ);
+                var product = context.products.FirstOrDefault(i => i.bar_code == stocksDTO.product.bar_code);
                 var stocks = context.stocks.FirstOrDefault(a => a.product.id == product.id && a.store.id == store.id);
 
 
@@ -136,8 +133,8 @@ namespace Model
             var stocksDTO = new StocksDTO();
             stocksDTO.quantity = this.quantity;
             stocksDTO.unit_price = this.unit_price;
-            stocksDTO.ProductDTO = this.product.convertModelToDTO();
-            stocksDTO.StoreDTO = this.store.convertModelToDTO();
+            stocksDTO.product = this.product.convertModelToDTO();
+            stocksDTO.store = this.store.convertModelToDTO();
 
             return stocksDTO;
         }
@@ -147,8 +144,8 @@ namespace Model
 
             stock.setQuantity(obj.quantity);
             stock.setUnitPrice(obj.unit_price);
-            stock.setProduct(Product.convertDTOToModel(obj.ProductDTO));
-            stock.setStore(Store.convertDTOToModel(obj.StoreDTO));
+            stock.setProduct(Product.convertDTOToModel(obj.product));
+            stock.setStore(Store.convertDTOToModel(obj.store));
             
             return stock;
         }

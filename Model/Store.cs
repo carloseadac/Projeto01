@@ -172,6 +172,12 @@ namespace Model
                 return store.id;
             }
         }
+        public int getID(){
+            using(var context = new DaoContext()){
+                var ID  = context.stores.FirstOrDefault(p => p.CNPJ == this.cnpj).id;
+                return ID;
+            }
+        }
 
         public bool validateObject()
         {
