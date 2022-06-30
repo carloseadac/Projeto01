@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj",
+        "projectName": "DAO",
+        "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +45,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
                 "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj"
+=======
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj"
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
               }
             }
           }
@@ -68,10 +90,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -83,6 +106,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +132,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
                 "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj"
+=======
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj"
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
               }
             }
           }
@@ -132,10 +173,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -147,6 +189,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj",
+        "projectName": "Enums",
+        "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,10 +247,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -207,6 +263,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -246,10 +315,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -261,6 +331,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -274,6 +357,7 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj": {
                 "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj"
               },
@@ -285,6 +369,19 @@
               },
               "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj": {
                 "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj"
+=======
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj"
+              },
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj"
+              },
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj"
+              },
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj"
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
               }
             }
           }
@@ -323,10 +420,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -338,6 +436,19 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+        "projectName": "testesAutomatizados",
+        "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\testesAutomatizados\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -351,11 +462,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj": {
                 "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj"
               },
               "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj": {
                 "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj"
+=======
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj"
+              },
+              "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\Model.csproj"
+>>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
               }
             }
           }
@@ -398,7 +517,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

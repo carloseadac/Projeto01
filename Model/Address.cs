@@ -150,6 +150,16 @@ namespace Model
             return addressDTO;
         }
 
-        
+        public static AddressDTO ConvertDAOToDTO(DAO.Address addressDAO){
+            var addressDTO = new AddressDTO();
+            addressDTO.postal_code = addressDAO.postal_code;
+            addressDTO.id = addressDAO.id;
+            addressDTO.street = addressDAO.street;
+            addressDTO.state = addressDAO.state;
+            addressDTO.city = addressDAO.city;
+            addressDTO.country = addressDAO.country;
+            return addressDTO;
+        }
+
     }
 }
