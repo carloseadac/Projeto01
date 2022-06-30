@@ -213,7 +213,7 @@ namespace Model
             products.Add(prod);
         }
 
-        public static List<object> getStorePurchases(int storeID){
+        public static List<object> getStorePurchases(string CNPJ){
         using(var context = new DaoContext()){
             var storePurchase = context.purchases
             .Include(s => s.store)
@@ -222,7 +222,7 @@ namespace Model
             .Include(p => p.product)
             .Include(c => c.client)
             .Include(a => a.client.address)
-            .Where(p => p.store.id == storeID);
+            .Where(p => p.store.CNPJ == CNPJ);
              List<object> compras = new List<object>();
              foreach(var compra in storePurchase){
                  compras.Add(compra);

@@ -21,9 +21,9 @@ public class PurchaseController : ControllerBase
     }
 
     [HttpGet]
-    [Route("get/store/{id}")]
-    public object getStorePurchase(int storeID){
-        var storePurchase = Model.Purchase.getStorePurchases(storeID);
+    [Route("get/store/{CNPJ}")]
+    public object getStorePurchase(string CNPJ){
+        var storePurchase = Model.Purchase.getStorePurchases(CNPJ);
         return storePurchase;
     }
 
@@ -48,8 +48,6 @@ public class PurchaseController : ControllerBase
     [Route("make")]
      public IActionResult makePurchase(RequestPurchaseDTO purchase)
     {
-
-        Console.WriteLine("CUUUUUUUUUUUUUUUUUUUUUUUUU");
 
         var ClientId = Lib.GetIdFromRequest(Request.Headers["Authorization"].ToString());
         var purchaseModel = new Model.Purchase();

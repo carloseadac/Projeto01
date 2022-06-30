@@ -46,4 +46,13 @@ public class StoreController : ControllerBase {
         Console.WriteLine(id);
         return store;
     }
+    
+    [HttpGet]
+    [Route("get")]
+    public Object getStorebyIDOwner(){
+        Response.Headers.Add("Access-Control-Allow-Origin", "*");
+        var id = Lib.GetIdFromRequest(Request.Headers["Authorization"].ToString());
+        var store = Model.Store.getStorebyIDOwner(id);
+        return store;
+    }
 }
