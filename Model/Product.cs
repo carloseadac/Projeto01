@@ -177,7 +177,8 @@ namespace Model
                         bar_code = stock.product.bar_code,
                         image = stock.product.image,
                         description = stock.product.description,
-                        price = stock.unit_price
+                        price = stock.unit_price,
+                        idStocks = stock.id
                     });
                 }
             }
@@ -195,6 +196,14 @@ namespace Model
                 var produto = context.products.FirstOrDefault(s => s.bar_code == productDTO.bar_code);
 
                 return produto.id;
+            }
+        }
+        public int getID()
+        {
+            using (var context = new DaoContext())
+            {
+                var product = context.products.FirstOrDefault(p => p.bar_code == this.bar_code);
+                return product.id;
             }
         }
         

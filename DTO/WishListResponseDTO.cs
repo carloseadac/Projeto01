@@ -12,5 +12,7 @@ public class WishListResponseDTO
     public string name;
     public int IdStocks;
     public int idWishlist {get;set;}
+
+    public int idProduct;
     
 }

@@ -5,18 +5,24 @@ using Microsoft.AspNetCore.Authorization;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.EntityFrameworkCore;
 
+namespace Controller.Controllers;
+
 [ApiController]
+
 [Route("purchase")]
 public class PurchaseController : ControllerBase
 {
     [HttpGet]
-    [Route("get/client/{id}")]
-    public object getClientPurchase(int clientID){
-        var clientPurchase = Model.Purchase.getClientPurchases(clientID);
+    [Route("get/client")]
+    public List<object> getClientPurchase()
+    {
+        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var clientPurchase = Model.Purchase.getClientPurchases(ClientId);
         return clientPurchase;
     }
 
-    
+    [HttpGet]
+    [Route("get/store/{id}")]
     public object getStorePurchase(int storeID){
         var storePurchase = Model.Purchase.getStorePurchases(storeID);
         return storePurchase;

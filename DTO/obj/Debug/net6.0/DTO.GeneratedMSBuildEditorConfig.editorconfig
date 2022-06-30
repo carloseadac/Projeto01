@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DTO
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\samsung\OneDrive\Documentos\Projeto01\DTO\
+=======
+build_property.ProjectDir = C:\Users\disrct\Desktop\Projeto01\DTO\
+>>>>>>> c069c51e56eb1c63f6ce767f34d136057905ab5f

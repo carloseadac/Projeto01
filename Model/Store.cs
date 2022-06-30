@@ -172,6 +172,12 @@ namespace Model
                 return store.id;
             }
         }
+        public int getID(){
+            using(var context = new DaoContext()){
+                var ID  = context.stores.FirstOrDefault(p => p.CNPJ == this.cnpj).id;
+                return ID;
+            }
+        }
 
         public bool validateObject()
         {
@@ -185,5 +191,15 @@ namespace Model
             }
             return true;
         }
+        public static object getStorebyIDOwner(int idOwner){
+        using(var context = new DaoContext()){
+            var storeDAO = context.stores.Include(s => s.owner).Include(s => s.owner.address).FirstOrDefault(p => p.owner.id == idOwner);
+            Console.WriteLine(storeDAO.CNPJ);
+            return new {
+                name = storeDAO.name,
+                cnpj = storeDAO.CNPJ,
+            };
+        }
+    }
     }
 }

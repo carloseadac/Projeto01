@@ -1044,19 +1044,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samsung\\.nuget\\packages\\": {}
+    "C:\\Users\\disrct\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj",
-      "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\obj\\",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj",
+      "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1070,8 +1070,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj": {
-              "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj"
+            "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
             }
           }
         }
@@ -1106,7 +1106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

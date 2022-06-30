@@ -227,18 +227,17 @@ namespace Model
 
         public static List<object> getClientPurchases(int clientID){
             using(var context = new DaoContext()){
-                var storePurchase = context.purchases
+                var clientPurchase = context.purchases
                 .Include(s => s.store)
-                .Include(o => o.store.owner)
-                .Include(a => a.store.owner.address)
                 .Include(p => p.product)
-                .Include(a => a.client.address)
                 .Where(p => p.client.id == clientID);
-                List<object> compras = new List<object>();
-                foreach(var compra in storePurchase){
-                    compras.Add(compra);
+
+                List<object> purchases = new List<object>();
+                foreach(object purchase in clientPurchase){
+                    purchases.Add(purchase);
                 }
-                return compras;
+                return purchases;
+
             }
         }
 
