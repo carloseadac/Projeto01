@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {}
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj",
+        "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj",
         "projectName": "Enums",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\obj\\",
+        "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj",
+        "packagesPath": "C:\\Users\\COC2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

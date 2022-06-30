@@ -82,3 +82,17 @@ C:\Users\samsung\OneDrive\Documentos\Projeto01\Enums\obj\Debug\net6.0\refint\Enu
 C:\Users\samsung\OneDrive\Documentos\Projeto01\Enums\obj\Debug\net6.0\Enums.pdb
 C:\Users\samsung\OneDrive\Documentos\Projeto01\Enums\obj\Debug\net6.0\Enums.genruntimeconfig.cache
 C:\Users\samsung\OneDrive\Documentos\Projeto01\Enums\obj\Debug\net6.0\ref\Enums.dll
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\bin\Debug\net6.0\Enums.deps.json
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\bin\Debug\net6.0\Enums.runtimeconfig.json
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\bin\Debug\net6.0\Enums.dll
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\bin\Debug\net6.0\Enums.pdb
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.csproj.AssemblyReference.cache
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.AssemblyInfoInputs.cache
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.AssemblyInfo.cs
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.csproj.CoreCompileInputs.cache
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.dll
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\refint\Enums.dll
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.pdb
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\Enums.genruntimeconfig.cache
+C:\Users\COC2CT\Desktop\ProjetoMarketei\Projeto01\Enums\obj\Debug\net6.0\ref\Enums.dll

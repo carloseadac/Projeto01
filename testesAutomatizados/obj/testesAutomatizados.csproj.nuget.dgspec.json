@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {}
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj": {
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\obj\\",
+        "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\COC2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj"
               }
             }
           }
@@ -72,17 +72,17 @@
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj": {
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\COC2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj"
               }
             }
           }
@@ -136,17 +136,17 @@
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj",
+        "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj",
         "projectName": "Enums",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\obj\\",
+        "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj",
+        "packagesPath": "C:\\Users\\COC2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,17 +196,17 @@
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\COC2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,17 +250,17 @@
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj": {
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\obj\\",
+        "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\COC2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -274,17 +274,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DAO\\DAO.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Enums\\Enums.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Interfaces\\Interfaces.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -301,11 +301,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.6, )"
             }
           },
           "imports": [
@@ -327,17 +327,17 @@
         }
       }
     },
-    "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {
+    "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+        "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
         "projectName": "testesAutomatizados",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\testesAutomatizados\\obj\\",
+        "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\testesAutomatizados\\testesAutomatizados.csproj",
+        "packagesPath": "C:\\Users\\COC2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\testesAutomatizados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -351,11 +351,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\DTO\\DTO.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\Projeto01\\Model\\Model.csproj"
+              "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj"
               }
             }
           }
