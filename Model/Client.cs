@@ -164,5 +164,26 @@ namespace Model
                 };
             }
         }
+    public static Client viaid(int id)
+    {
+        using (var context = new DaoContext())
+        {
+           
+            var clientDAO = context.clients.Include(i => i.address).FirstOrDefault(o => o.id == id);
+            var address = Address.convertDTOToModel(Address.ConvertDAOToDTO(clientDAO.address));
+          
+
+            return new Client{
+                name = clientDAO.name,
+                email = clientDAO.email,
+                date_of_birth = clientDAO.date_of_birth,
+                document = clientDAO.document,
+                phone = clientDAO.phone,
+                login = clientDAO.login,
+                address = address,
+                passwd = clientDAO.passwd
+            };
+        }
+    }
     }
 }
