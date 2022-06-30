@@ -2751,16 +2751,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\COC2CT\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\samsung\\.nuget\\packages\\": {}
->>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj",
       "projectName": "Model",
       "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\Model.csproj",
@@ -2769,16 +2764,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\Model.csproj",
-      "projectName": "Model",
-      "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Model\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2792,7 +2777,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj": {
               "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\DAO\\DAO.csproj"
             },
@@ -2804,19 +2788,6 @@
             },
             "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj": {
               "projectPath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj"
-=======
-            "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DAO\\DAO.csproj"
-            },
-            "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\DTO\\DTO.csproj"
-            },
-            "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj": {
-              "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Enums\\Enums.csproj"
-            },
-            "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj"
->>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
             }
           }
         }
@@ -2855,8 +2826,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Model\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

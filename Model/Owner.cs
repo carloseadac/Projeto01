@@ -157,7 +157,22 @@ namespace Model
                 else return null;
             }
         }
+        public static OwnerDTO ConvertDaoToDTO(DAO.Owner OwnerDAO)
+        {
+            var OwnerDTO = new OwnerDTO();
+            OwnerDTO.name = OwnerDAO.name;
+            OwnerDTO.date_of_birth = OwnerDAO.date_of_birth;
+            OwnerDTO.document = OwnerDAO.document;
+            OwnerDTO.email = OwnerDAO.email;
+            OwnerDTO.phone = OwnerDAO.phone;
+            OwnerDTO.login = OwnerDAO.login;
+            OwnerDTO.passwd = OwnerDAO.passwd;
 
+            OwnerDTO.address = Address.ConvertDAOToDTO(OwnerDAO.address);
+
+
+            return OwnerDTO;
+        }
         public static object find(String document){
         using (var context = new DaoContext()){
             var owner = context.owners.Include(i => i.address).FirstOrDefault(d => d.document == document);

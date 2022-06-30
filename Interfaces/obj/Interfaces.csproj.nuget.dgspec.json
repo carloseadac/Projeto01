@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\COC2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj",
-        "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

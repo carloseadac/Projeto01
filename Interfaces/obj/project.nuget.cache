@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "N3v851/LhKqxR1zPoH+cbZDDM8gRXlkH/e+ns/MpHyd8b6YT77q7KYO6dOwGVCbBwQOVH1P9EBHPO44vmKPtYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj",
-=======
-  "dgSpecHash": "y1nx817G9z0Mnwb1DtDgit+a9RweHDWJDfbOkuwCsuL0oehQjKW8gvVia1dg4CZxmeUZTC3Db/U0VphNLGvYIA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\samsung\\OneDrive\\Documentos\\Projeto01\\Interfaces\\Interfaces.csproj",
->>>>>>> 2f61bfce6c1dd8857000fbf18b1052412aceb68e
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

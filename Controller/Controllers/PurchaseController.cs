@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 namespace Controller.Controllers;
 
 [ApiController]
-
 [Route("purchase")]
 public class PurchaseController : ControllerBase
 {
@@ -47,19 +46,18 @@ public class PurchaseController : ControllerBase
     // }
     [HttpPost]
     [Route("make")]
-     public object makePurchase([FromBody] PurchaseDTO purchase)
+     public IActionResult makePurchase(RequestPurchaseDTO purchase)
     {
-        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
-        var purchaseModel = Model.Purchase.convertDTOToModel(purchase);
-        purchaseModel.setClient(Model.Client.viaid(ClientId));
 
-        int id = purchaseModel.save();
+        Console.WriteLine("CUUUUUUUUUUUUUUUUUUUUUUUUU");
+
+        var ClientId = Lib.GetIdFromRequest(Request.Headers["Authorization"].ToString());
+        var purchaseModel = new Model.Purchase();
+        var ai = purchaseModel.save(ClientId, purchase.idProduct, purchase.idStore, purchase.date_purchase, purchase.payment_type, purchase.purchase_status, purchase.number_confirmation, purchase.number_nf);
         Console.WriteLine(purchaseModel);
-        Console.WriteLine(id);
+        Console.WriteLine(ai);
 
-        return new
-        {
-            response = "salvou on banco"
-        };
+        var result = new ObjectResult(ai);
+        return result;
     }
 }

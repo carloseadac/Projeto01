@@ -167,7 +167,7 @@ namespace Model
 
             using(var context = new DaoContext()){
 
-                var stocks = context.stocks.Include(s => s.product).ToList();
+                var stocks = context.stocks.Include(s => s.product).Include(s => s.store).ToList();
                 foreach(var stock in stocks)
                 {
                     produtos.Add(new
@@ -178,7 +178,8 @@ namespace Model
                         image = stock.product.image,
                         description = stock.product.description,
                         price = stock.unit_price,
-                        idStocks = stock.id
+                        idStocks = stock.id,
+                        idStore = stock.store.id
                     });
                 }
             }

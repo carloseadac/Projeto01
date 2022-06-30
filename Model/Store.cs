@@ -178,6 +178,15 @@ namespace Model
                 return ID;
             }
         }
+        public static StoreDTO ConvertDaoToDTO(DAO.Store storeDao)
+        {
+            var storeDTO = new StoreDTO();
+            storeDTO.name = storeDao.name;
+            storeDTO.CNPJ = storeDao.CNPJ;
+            storeDTO.OwnerDTO = Owner.ConvertDaoToDTO(storeDao.owner);
+
+            return storeDTO;
+        }
 
         public bool validateObject()
         {
@@ -192,14 +201,29 @@ namespace Model
             return true;
         }
         public static object getStorebyIDOwner(int idOwner){
-        using(var context = new DaoContext()){
-            var storeDAO = context.stores.Include(s => s.owner).Include(s => s.owner.address).FirstOrDefault(p => p.owner.id == idOwner);
-            Console.WriteLine(storeDAO.CNPJ);
-            return new {
-                name = storeDAO.name,
-                cnpj = storeDAO.CNPJ,
-            };
+            using(var context = new DaoContext()){
+                var storeDAO = context.stores.Include(s => s.owner).Include(s => s.owner.address).FirstOrDefault(p => p.owner.id == idOwner);
+                Console.WriteLine(storeDAO.CNPJ);
+                return new {
+                    name = storeDAO.name,
+                    cnpj = storeDAO.CNPJ,
+                };
+            }
+        
         }
+        
+        public static Store findStore(string CNPJ){
+
+        using (var context = new DaoContext())
+        {
+
+            var storeDAO = context.stores.Include(i => i.owner).Include(i => i.owner.address).FirstOrDefault(o => o.CNPJ == CNPJ);
+
+            Store storeModel = Model.Store.convertDTOToModel(Model.Store.ConvertDaoToDTO(storeDAO));
+
+            return storeModel;
+        };
     }
+
     }
 }

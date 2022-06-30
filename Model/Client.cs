@@ -111,7 +111,7 @@ namespace Model
         }
         public static Client convertDTOToModel(ClientDTO obj)
         {
-            var client = new Client();
+            var client = new Client(Address.convertDTOToModel(obj.address));
 
             client.setDocument(obj.document);
             client.setName(obj.name);
@@ -120,7 +120,7 @@ namespace Model
             client.setPhone(obj.phone);
             client.setLogin(obj.login);
             client.setPasswd(obj.passwd);
-            client.address = Address.convertDTOToModel(obj.address);
+
             return client;
         }
 
@@ -164,26 +164,26 @@ namespace Model
                 };
             }
         }
-    public static Client viaid(int id)
-    {
-        using (var context = new DaoContext())
+        public static Client viaid(int id)
         {
-           
-            var clientDAO = context.clients.Include(i => i.address).FirstOrDefault(o => o.id == id);
-            var address = Address.convertDTOToModel(Address.ConvertDAOToDTO(clientDAO.address));
-          
+            using (var context = new DaoContext())
+            {
+            
+                var clientDAO = context.clients.Include(i => i.address).FirstOrDefault(o => o.id == id);
+                var address = Address.convertDTOToModel(Address.ConvertDAOToDTO(clientDAO.address));
+            
 
-            return new Client{
-                name = clientDAO.name,
-                email = clientDAO.email,
-                date_of_birth = clientDAO.date_of_birth,
-                document = clientDAO.document,
-                phone = clientDAO.phone,
-                login = clientDAO.login,
-                address = address,
-                passwd = clientDAO.passwd
-            };
+                return new Client{
+                    name = clientDAO.name,
+                    email = clientDAO.email,
+                    date_of_birth = clientDAO.date_of_birth,
+                    document = clientDAO.document,
+                    phone = clientDAO.phone,
+                    login = clientDAO.login,
+                    address = address,
+                    passwd = clientDAO.passwd
+                };
+            }
         }
-    }
     }
 }

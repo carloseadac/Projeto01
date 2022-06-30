@@ -127,21 +127,23 @@ namespace Model
 
         }
 
-        public int save()
+        public int save(int client, int store, int product, DateTime data, PaymentEnum tipo, PurchaseStatusEnum status, string confirmado, string nf)
         {
             var id = 0;
             using (var context = new DaoContext())
             {
-                var clientDAO =  context.clients.FirstOrDefault(c => c.id == 1);
-                var storeDAO = context.stores.FirstOrDefault(s =>s.id ==1);
-                var productsDAO = context.products.FirstOrDefault(x=> x.id == 1);
+                var clientDAO =  context.clients.FirstOrDefault(c => c.id == client);
+                var storeDAO = context.stores.FirstOrDefault(s =>s.id ==store);
+                var productsDAO = context.products.FirstOrDefault(x=> x.id == product);
                 
                 var purchase = new DAO.Purchase {
-                    date_purchase = this.date_purchase,
-                    payment_type = this.payment_type,
-                    purchase_status = this.purchase_status,
-                    number_confirmation = this.getNumberConfirmation(),
-                    number_nf = this.getNumberNf(),
+                    date_purchase = data,
+                    payment_type = tipo,
+                    purchase_status = status,
+                    // number_confirmation = this.number_confirmation,
+                    // number_nf = this.number_nf,
+                    number_confirmation = confirmado,
+                    number_nf = nf,
                     client = clientDAO,
                     store = storeDAO,
                     product = productsDAO
@@ -187,6 +189,10 @@ namespace Model
         }
 
         public static Purchase convertDTOToModel(PurchaseDTO obj){
+
+            var storeModel = Model.Store.findStore(obj.store.CNPJ);
+            var products = new List<Model.Product>();
+
             Purchase purchase = new Purchase();
             purchase.setClient(Client.convertDTOToModel(obj.client));
             purchase.setStore(Store.convertDTOToModel(obj.store));
@@ -195,8 +201,8 @@ namespace Model
             purchase.setNumberNf(obj.number_nf);
             purchase.setPaymentType(obj.payment_type);
             purchase.setPurchaseStatus(obj.purchase_status);
-            List<Product> products = new List<Product>();
-            foreach(ProductDTO prod in obj.products){ //!!!!!!!!!!!!!!!!!!!!!!
+
+            foreach(ProductDTO prod in obj.products){ 
                 products.Add(Product.convertDTOToModel(prod));
             }
             purchase.setProducts(products);
