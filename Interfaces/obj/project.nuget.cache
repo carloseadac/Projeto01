@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N3v851/LhKqxR1zPoH+cbZDDM8gRXlkH/e+ns/MpHyd8b6YT77q7KYO6dOwGVCbBwQOVH1P9EBHPO44vmKPtYQ==",
+  "dgSpecHash": "bgBzmLNU91/24DfuFw6zh+pGFD9XjQc0breyh1paHU0Wp+4We6l+UQnIT1DNLAuecCvI/+u/QX2IUqfda/JkbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\Interfaces.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Interfaces\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7KYsAPKz16zSxH+HsrdGr+bW8+DCABpa5e8iWJyrzzcO6PPd5xwO7yVjhWfBIU409h5lh7mUFc+zLMewYHBKVg==",
+  "dgSpecHash": "9tL9OtAt+7Tup4QEbd+g1e/iXKumHptVeovDJoggWAoPraIP6kas0TINoFarz3Wfc/mmXPEax6cn4DUxT2VooQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\Enums.csproj",
   "expectedPackageFiles": [
@@ -24,12 +24,5 @@
     "C:\\Users\\COC2CT\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\COC2CT\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\COC2CT\\Desktop\\ProjetoMarketei\\Projeto01\\Enums\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

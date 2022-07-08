@@ -19,6 +19,14 @@ public class PurchaseController : ControllerBase
         var clientPurchase = Model.Purchase.getClientPurchases(ClientId);
         return clientPurchase;
     }
+    [HttpGet]
+    [Route("get/num/")]
+    public object getPurchase()
+    {
+        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var clientPurchase = Model.Purchase.getClientPurchases(ClientId);
+        return clientPurchase;
+    }
 
     [HttpGet]
     [Route("get/store/{CNPJ}")]
